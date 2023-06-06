@@ -6,28 +6,38 @@ export default function Header() {
   const location = useLocation()
 
   return (
-    <nav className="Navigation">
-      <StyledLink to="/" className={location.pathname === "/" ? "active" : ""}>
-        Accueil
-      </StyledLink>
-      <StyledLink
-        to="/projects"
-        className={location.pathname === "/projects" ? "active" : ""}
-      >
-        Projets
-      </StyledLink>
-      <StyledLink
-        to="/curriculumvitae"
-        className={location.pathname === "/curriculumvitae" ? "active" : ""}
-      >
-        CV
-      </StyledLink>
-      <StyledLink
-        to="/contact"
-        className={location.pathname === "/contact" ? "active" : ""}
-      >
-        Contact
-      </StyledLink>
-    </nav>
+    <>
+      <div className="burger-menu">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <nav className="Navigation">
+        <StyledLink
+          to="/"
+          className={location.pathname === "/" ? "active" : ""}
+        >
+          Accueil
+        </StyledLink>
+        <StyledLink
+          to="/projects"
+          className={location.pathname === "/projects" ? "active" : ""}
+        >
+          Projets
+        </StyledLink>
+        <StyledLink
+          to="/curriculumvitae"
+          className={location.pathname === "/curriculumvitae" ? "active" : ""}
+        >
+          CV
+        </StyledLink>
+        <StyledLink
+          to="/contact"
+          className={location.pathname === "/contact" ? "active" : ""}
+        >
+          Contact
+        </StyledLink>
+      </nav>
+    </>
   )
 }
