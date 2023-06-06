@@ -1,0 +1,32 @@
+@import "../../Utils/style/GlobalStyle.scss";
+
+.footer-wrapper {
+  height: 100px;
+  display: grid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: $secondary-color;
+  white-space: nowrap;
+  .icons-wrapper {
+    display: flex;
+    margin: 10px 0px 0px 0px;
+    a {
+      cursor: pointer;
+      img {
+        width: 30px;
+        height: 30px;
+        margin: 0px 10px;
+      }
+      &:hover {
+        opacity: 0.5;
+      }
+    }
+  }
+  p {
+    align-self: center;
+    font-size: 14px;
+    font-style: italic;
+  }
+}
