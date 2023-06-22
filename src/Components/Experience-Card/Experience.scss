@@ -1,0 +1,75 @@
+@import "../../Utils/style/GlobalStyle.scss";
+
+.card-wrapper {
+  background-color: $secondary-color;
+  display: flex;
+  flex-direction: column;
+  .title {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 120px;
+    max-height: 130px;
+    align-items: center;
+    border-bottom: 3px solid white;
+    padding: 0px 20px 10px 20px;
+    &__main {
+      h2 {
+        color: $primary-color;
+        font-size: 1.3rem;
+      }
+      h3 {
+        color: grey;
+        margin: 0px 0px 5px 0px;
+        font-weight: 500;
+        font-size: 1.1rem;
+      }
+      h4 {
+        color: grey;
+        font-style: italic;
+        font-weight: 400;
+        margin: 0;
+        font-size: 1rem;
+      }
+    }
+    &__details {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      justify-content: space-between;
+      height: 100%;
+      &__dates {
+        font-size: 1.2rem;
+        color: grey;
+        margin: 0px;
+      }
+      &__place {
+        font-size: 1.2rem;
+        text-transform: uppercase;
+        color: grey;
+        margin: 0px;
+      }
+    }
+  }
+  .content {
+    padding: 0px 20px;
+    h5 {
+      font-size: 0.85rem;
+      margin: 10px 0px;
+    }
+    &__description {
+      font-size: 0.8rem;
+      margin: 5px 0px;
+    }
+    &__examples {
+      font-size: 0.8rem;
+      font-style: italic;
+      margin: 10px 0px;
+    }
+  }
+  @media only screen and (max-width: 1023px) {
+    .title {
+      //   display: block;
+    }
+  }
+}
