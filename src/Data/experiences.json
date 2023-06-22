@@ -1,0 +1,89 @@
+[
+  {
+    "dates": "2019-2022",
+    "title": "Chargée de missions Territoires et Mobilités",
+    "firm": "La Fabrique des Mobilités",
+    "sector": "Secteur du développement durable et de l'innovation",
+    "place": "Paris",
+    "activities": [
+      {
+        "title": "Création et pilotage de communs de mobilité",
+        "description": [
+          "Identification du commun, des parties prenantes et des ressources utiles à sa production.",
+          "Organisation du travail, budgétisation et recherche de ﬁnancements (réponses à des appels d'offre publics ou fonds conventionnés), suivi jusqu'à la production du commun.",
+          "Gestion de l'expérimentation du commun produit sur des territoires et sa documentation complète pour en permettre la reproductibilité."
+        ],
+        "exemples": "Exemples : challenge national sur la seconde vie des trottinettes électriques, Partageons plus de vélos, exploration des imaginaires du futur de la mobilité"
+      },
+      {
+        "title": "Création et animation de communautés d'intérêt",
+        "description": [
+          "Identification des intérêts communs d'acteurs de la mobilité (associations, grands groupes, institutions publiques, écoles...).",
+          "Préparation et animation de réunions, ateliers de travail, événements pour aider la communauté à identiﬁer des communs et les produire.",
+          "Documentation des ateliers, événements, des travaux menés."
+        ],
+        "exemples": "Exemples de communautés d'intêret : véhicules Open Source, conseiller·ère·s en mobilité, opérateurs de micromobilité"
+      },
+      {
+        "title": "Supervision de la création d'une nouvelle identité et charte graphiques pour l'association"
+      },
+      {
+        "title": "Participation aux décisions stratégiques et à l'organisation interne de l'association",
+        "description": [
+          "Rédaction et suivi administratif et comptable des différentes conventions de financement de l'association (AFD, ADEME, Michelin, Collectivités...).",
+          "Gestion des adhérent·e·s et partenaires.",
+          "Formation aux outils de l'équipe et du réseau.",
+          "Gestion des outils (github, wiki, discourse, codiMD, rocket chat)."
+        ]
+      }
+    ]
+  },
+  {
+    "dates": "2017-2019",
+    "title": "Cheffe de projets innovation",
+    "firm": "Silex ID",
+    "sector": "Secteur du développement durable et de l'innovation",
+    "place": "Paris",
+    "activities": [
+      {
+        "title": "Conception et pilotage d'ateliers de sensibilisation à l'innovation",
+        "description": [
+          "Reformulation du besoin client, budgétisation, devis, gestion de prestataires externes.",
+          "Conception et design d'ateliers, création des supports visuels et intermédiation avec le client et animation de ces ateliers."
+        ]
+      },
+      {
+        "title": "Supervision de la conception de magazines et newspapers print ou autres supports de communication interne print ou digitaux et des illustrations liées",
+        "description": [
+          "Pilotage de la budgétisation à la clôture.",
+          "Reformulation du besoin client, conseil éditorial, coconception du design et des illustrations."
+        ]
+      },
+      {
+        "title": "Participation aux décisions stratégiques, à la gestion comptable, administrative et financière"
+      }
+    ]
+  },
+  {
+    "dates": "2016",
+    "title": "Stage - Chargée de mission",
+    "firm": "PRESOL",
+    "sector": "Secteur de l'économie sociale et solidaire",
+    "place": "Rennes",
+    "activities": [
+      {
+        "description": [
+          "Étude d'un nouveau moyen de lever des financements et sa mise en place.",
+          "Participation à l'analyse de projets de création de PME/TPE portés par des personnes en situation précaire."
+        ]
+      }
+    ]
+  },
+  {
+    "dates": "2010",
+    "title": "Emploi saisonnier",
+    "firm": "Centre Départemental d'Action Sociale des Champs Manceaux",
+    "sector": "Secteur de l'économie sociale et solidaire",
+    "place": "Rennes"
+  }
+]
