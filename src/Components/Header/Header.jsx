@@ -2,15 +2,15 @@ import "./Header.scss"
 import { StyledLink } from "../../Utils/style/Atoms"
 import { useLocation } from "react-router-dom"
 import Burger from "./Burger"
-// import { useState } from "react"
+import { useState } from "react"
 
-export default function Header({ isOpen, setIsOpen }) {
+export default function Header() {
   const location = useLocation()
-  // const [isOpen, setIsOpen] = useState(false)
+  const [isOpen, setIsOpen] = useState(false)
 
   return (
     <>
-      <Burger isOpen={isOpen} setIsOpen />
+      <Burger isOpen={false} setIsOpen />
       <nav className={isOpen ? "Navigation" : "Navigation Navigation__hidden"}>
         <StyledLink
           to="/"

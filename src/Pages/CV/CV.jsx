@@ -1,5 +1,6 @@
 import "./CV.scss"
 import Carrousel from "../../Components/Carrousel/Carrousel"
+import experiences from "../../Data/experiences.json"
 
 export default function CV() {
   return (
@@ -11,6 +12,7 @@ export default function CV() {
       </p>
       <div className="cv-wrapper">
         <div className="experiences">
+          {experiences.map(experiences)}
           <Carrousel />
         </div>
         <div className="diplomas"></div>
