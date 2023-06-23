@@ -10,7 +10,7 @@ export default function Header() {
 
   return (
     <>
-      <Burger isOpen={false} setIsOpen />
+      <Burger isOpen onClick={() => setIsOpen(!isOpen)} />
       <nav className={isOpen ? "Navigation" : "Navigation Navigation__hidden"}>
         <StyledLink
           to="/"

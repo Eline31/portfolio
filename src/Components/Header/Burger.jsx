@@ -8,7 +8,7 @@ export default function Burger({ isOpen, setIsOpen }) {
       className={isOpen ? "burger-menu burger-menu__open" : "burger-menu"}
       isOpen
       // setIsOpen
-      onClick={() => setIsOpen(!isOpen)}
+      // onClick={() => setIsOpen(!isOpen)}
     >
       <div />
       <div />
