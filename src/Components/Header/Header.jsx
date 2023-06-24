@@ -1,20 +1,23 @@
 import "./Header.scss"
 import { StyledLink } from "../../Utils/style/Atoms"
 import { useLocation } from "react-router-dom"
-import Burger from "./Burger"
 import { useState } from "react"
 
-export default function Header({ isOpen }) {
+export default function Header() {
   const location = useLocation()
-  // const [shownMenu, setShownMenu] = useState(false)
+  const [isOpen, setIsOpen] = useState(false)
 
   return (
     <>
-      <Burger />
-      <nav
-        isOpen={isOpen}
-        className={isOpen ? "Navigation" : "Navigation Navigation__hidden"}
+      <div
+        className={isOpen ? "burger-menu burger-menu__open" : "burger-menu"}
+        onClick={() => setIsOpen(!isOpen)}
       >
+        <div />
+        <div />
+        <div />
+      </div>
+      <nav className={isOpen ? "Navigation" : "Navigation Navigation__hidden"}>
         <StyledLink
           to="/"
           className={location.pathname === "/" ? "active" : ""}
