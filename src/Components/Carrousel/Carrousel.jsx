@@ -2,14 +2,13 @@ import Experience from "../Experience-Card/Experience-Card.jsx"
 import experiences from "../../Data/experiences.json"
 import arrowleft from "../../Assets/arrow_left.png"
 import arrowright from "../../Assets/arrow_right.png"
-import { useState, useEffect } from "react"
+import { useState } from "react"
 import { Loader } from "../../Utils/style/Atoms.jsx"
+import "./Carrousel.scss"
 
 export default function Carrousel() {
   //Identification de la slide actuelle
   const [current, setCurrent] = useState(0)
-  //  //Création du tableau d'expériences pour le carrousel
-  //  const [xperienceSlider, setXperienceSlider] = useState([])
   //useState du loader
   const [isLoading, setIsLoading] = useState(false)
 
@@ -45,24 +44,30 @@ export default function Carrousel() {
         <>
           {experiences.map((experience, index) => {
             return (
-              <Experience
-                experience={experiences[index]}
-                className={index === current ? "active" : ""}
-                key={`Xperience-${index}`}
-              />
+              <div className="Xperience">
+                <Experience
+                  experience={experience}
+                  className={
+                    index === current
+                      ? "Xperience Xperience__active"
+                      : "Xperience"
+                  }
+                  key={`Xperience-${index}`}
+                />
+              </div>
             )
           })}
           {experiences.length > 1 && (
             <>
               <div className="Arrows">
-                <button alt="Image précédente" onClick={prevSlide}>
+                <button alt="Expérience précédente" onClick={prevSlide}>
                   <img
                     src={arrowleft}
                     className="arrowLeft"
                     alt="Flèche indiquant la gauche"
                   />
                 </button>
-                <button alt="Image suivante" onClick={nextSlide}>
+                <button alt="Expérience suivante" onClick={nextSlide}>
                   <img
                     src={arrowright}
                     className="arrowRight"
@@ -70,7 +75,7 @@ export default function Carrousel() {
                   />
                 </button>
               </div>
-              <p>
+              <p className="count">
                 {current + 1} / {experiences.length}
               </p>
             </>

@@ -1,0 +1,61 @@
+.CarrouselContainer {
+  height: 582px;
+  //   width: 100%;
+  margin: 0px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  //   flex-direction: row;
+  overflow: hidden;
+  //   position: absolute;
+  .Xperience {
+    transition: all 600ms ease-in-out;
+    transform: scale(0.92);
+    // opacity: 0;
+    // width: 100%;
+    position: absolute;
+    &__active {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  .LoaderWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+  }
+  .Arrows {
+    display: flex;
+    width: 100%;
+    // height: 100%;
+    position: relative;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: black;
+    button {
+      background: none;
+      border: none;
+      cursor: pointer;
+      transition: all 300ms ease-in-out;
+      .arrowLeft,
+      .arrowRight {
+        transform: scale(1);
+      }
+      &:active {
+        transform: scale(2);
+      }
+    }
+  }
+  .count {
+    align-self: flex-end;
+    color: black;
+    font-size: 24px;
+    margin: 20px auto;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+  }
+}

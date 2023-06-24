@@ -3,7 +3,6 @@ import "./Experience-Card.scss"
 
 export default function Experience({ experience }) {
   const activitiesList = experience.activities
-  console.log("activities", activitiesList)
 
   const activity = activitiesList?.map((activity, index) => {
     return (
