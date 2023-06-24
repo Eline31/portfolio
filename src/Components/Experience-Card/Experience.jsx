@@ -40,8 +40,15 @@ export default function Experience() {
                   <p key={`${task}-${index}`}>{task}</p>
                 ))}
               </div> */}
-              <p className="content__description">{activity.description}</p>
-              <p className="content__examples">{activity.examples}</p>
+              <p
+                key={`${activity}-description-${index}`}
+                className="content__description"
+              >
+                {activity.description}
+              </p>
+              <p key={`${activity}-ex-${index}`} className="content__examples">
+                {activity.examples}
+              </p>
             </>
           ))}
       </div>

@@ -1,18 +1,19 @@
 // import { useState } from "react"
 import "./Burger.scss"
-// import { useState } from "react"
+import { useState } from "react"
 
-export default function Burger({ isOpen, setIsOpen }) {
+export default function Burger() {
+  const [isOpen, setIsOpen] = useState(false)
   return (
-    <nav
+    <div
       className={isOpen ? "burger-menu burger-menu__open" : "burger-menu"}
-      isOpen
-      // setIsOpen
-      // onClick={() => setIsOpen(!isOpen)}
+      isOpen={isOpen}
+      onClick={() => setIsOpen(!isOpen)}
+      // setIsOpen={setIsOpen}
     >
       <div />
       <div />
       <div />
-    </nav>
+    </div>
   )
 }

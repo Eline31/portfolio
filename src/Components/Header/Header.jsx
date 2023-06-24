@@ -4,14 +4,17 @@ import { useLocation } from "react-router-dom"
 import Burger from "./Burger"
 import { useState } from "react"
 
-export default function Header() {
+export default function Header({ isOpen }) {
   const location = useLocation()
-  const [isOpen, setIsOpen] = useState(false)
+  // const [shownMenu, setShownMenu] = useState(false)
 
   return (
     <>
-      <Burger isOpen onClick={() => setIsOpen(!isOpen)} />
-      <nav className={isOpen ? "Navigation" : "Navigation Navigation__hidden"}>
+      <Burger />
+      <nav
+        isOpen={isOpen}
+        className={isOpen ? "Navigation" : "Navigation Navigation__hidden"}
+      >
         <StyledLink
           to="/"
           className={location.pathname === "/" ? "active" : ""}

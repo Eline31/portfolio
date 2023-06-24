@@ -4,10 +4,11 @@
   background-color: $secondary-color;
   display: flex;
   flex-direction: column;
+  margin: 20px;
   .title {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    // flex-wrap: wrap;
     height: 120px;
     max-height: 130px;
     align-items: center;
@@ -41,7 +42,7 @@
       &__dates {
         font-size: 1.2rem;
         color: grey;
-        margin: 0px;
+        margin: 17px 0px 0px 0px;
       }
       &__place {
         font-size: 1.2rem;
@@ -67,9 +68,50 @@
       margin: 10px 0px;
     }
   }
-  @media only screen and (max-width: 1023px) {
+  @media only screen and (max-width: 768px) {
+    margin: 10px;
     .title {
-      //   display: block;
+      max-height: none;
+      height: 100%;
+      padding: 0px 20px 15px 20px;
+      flex-direction: column;
+      align-items: flex-start;
+      &__main {
+        h2 {
+          font-size: 1rem;
+        }
+        h3 {
+          font-size: 0.8rem;
+        }
+        h4 {
+          font-size: 0.8rem;
+        }
+      }
+      &__details {
+        flex-direction: row;
+        &__dates {
+          margin: 0px;
+          font-size: 0.8rem;
+          &::after {
+            content: "  •";
+          }
+        }
+        &__place {
+          font-size: 0.8rem;
+          padding-left: 5px;
+        }
+      }
+    }
+    .content {
+      h5 {
+        font-size: 0.8rem;
+      }
+      &__description {
+        font-size: 0.7rem;
+      }
+      &__examples {
+        font-size: 0.7rem;
+      }
     }
   }
 }
