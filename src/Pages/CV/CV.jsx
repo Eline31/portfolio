@@ -1,16 +1,12 @@
 import "./CV.scss"
 import Carrousel from "../../Components/Carrousel/Carrousel"
 // import experiences from "../../Data/experiences.json"
-import Experience from "../../Components/Experience-Card/Experience"
+// import Experience from "../../Components/Experience-Card/Experience-Card"
 
 export default function CV() {
   return (
-    <>
+    <div className="wrapper">
       <h1>Cheffe de projets numériques</h1>
-      <p>
-        J'aime comprendre une problématique et pouvoir y apporter une réponse
-        tangible, de sa conception à sa réalisation et son expérimentation.
-      </p>
       <div className="cv-wrapper">
         <div className="experiences">
           {/* {experiences.map((experience, index) => experiences)} */}
@@ -20,6 +16,6 @@ export default function CV() {
         <div className="diplomas"></div>
         <div className="abilities"></div>
       </div>
-    </>
+    </div>
   )
 }
