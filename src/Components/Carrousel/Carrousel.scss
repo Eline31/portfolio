@@ -1,18 +1,12 @@
-.CarrouselContainer {
-  height: 582px;
-  //   width: 100%;
-  margin: 0px 20px;
+.Carrousel-wrapper {
+  width: 865px;
   display: flex;
-  align-items: center;
   justify-content: center;
-  //   flex-direction: row;
-  overflow: hidden;
-  //   position: absolute;
+  height: 100%;
   .Xperience {
     transition: all 600ms ease-in-out;
     transform: scale(0.92);
-    // opacity: 0;
-    // width: 100%;
+    opacity: 0;
     position: absolute;
     &__active {
       transform: scale(1);
@@ -29,12 +23,11 @@
   }
   .Arrows {
     display: flex;
-    width: 100%;
-    // height: 100%;
-    position: relative;
+    width: 55%;
+    top: 215px;
+    align-self: flex-start;
+    position: absolute;
     justify-content: space-between;
-    padding: 10px;
-    background-color: black;
     button {
       background: none;
       border: none;
@@ -43,6 +36,7 @@
       .arrowLeft,
       .arrowRight {
         transform: scale(1);
+        height: 50px;
       }
       &:active {
         transform: scale(2);
