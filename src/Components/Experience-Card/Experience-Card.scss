@@ -1,13 +1,14 @@
 @import "../../Utils/style/GlobalStyle.scss";
 
-.card-wrapper {
+.card-container {
+  margin: 20px 50px;
+  //   height: 100%;
+  //   width: 865px;
   background-color: $secondary-color;
   display: flex;
   flex-direction: column;
-  margin: 20px 50px;
-  height: 100%;
-  width: 865px;
   .title {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     height: 120px;
@@ -52,26 +53,8 @@
         margin: 0px;
       }
     }
-  }
-  .content {
-    padding: 0px 20px;
-    h5 {
-      font-size: 0.85rem;
-      margin: 10px 0px;
-    }
-    &__description {
-      font-size: 0.8rem;
-      margin: 0px;
-    }
-    &__examples {
-      font-size: 0.8rem;
-      font-style: italic;
-      margin: 10px 0px;
-    }
-  }
-  @media only screen and (max-width: 768px) {
-    margin: 10px;
-    .title {
+    @media only screen and (max-width: 768px) {
+      // margin: 10px;
       max-height: none;
       height: 100%;
       padding: 0px 20px 15px 20px;
@@ -103,7 +86,27 @@
         }
       }
     }
-    .content {
+  }
+
+  .content {
+    width: 100%;
+    padding: 0px 20px;
+    height: 100%;
+    h5 {
+      font-size: 0.85rem;
+      margin: 10px 0px;
+    }
+    &__description {
+      font-size: 0.8rem;
+      margin: 0px;
+    }
+    &__examples {
+      font-size: 0.8rem;
+      font-style: italic;
+      margin: 10px 0px;
+    }
+    @media only screen and (max-width: 768px) {
+      // margin: 10px;
       h5 {
         font-size: 0.8rem;
       }

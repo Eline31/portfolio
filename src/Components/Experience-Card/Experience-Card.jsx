@@ -23,7 +23,7 @@ export default function Experience({ experience }) {
   })
 
   return (
-    <div className="card-wrapper">
+    <div className="card-container">
       <div className="title">
         <div className="title__main">
           <h2>{experience.title}</h2>

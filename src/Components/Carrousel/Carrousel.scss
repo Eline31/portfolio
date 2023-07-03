@@ -1,13 +1,28 @@
+@import "../../Utils/style/GlobalStyle.scss";
+
 .Carrousel-wrapper {
-  width: 865px;
   display: flex;
-  justify-content: center;
-  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 850px;
+  width: 100%;
+  align-items: center;
+  margin: 0px 50px;
+  // overflow: hidden;
   .Xperience {
+    // background-color: $secondary-color;
+    // display: flex;
+    // flex-direction: column;
+    // margin: 20px 50px;
+    // height: 100%;
+    // width: 865px;
+    // width: 100%;
     transition: all 600ms ease-in-out;
     transform: scale(0.92);
     opacity: 0;
     position: absolute;
+    height: 100%;
+    width: 90%;
     &__active {
       transform: scale(1);
       opacity: 1;
@@ -23,11 +38,12 @@
   }
   .Arrows {
     display: flex;
-    width: 55%;
-    top: 215px;
-    align-self: flex-start;
+    width: 89%;
+    top: 188px;
+    left: 58px;
     position: absolute;
     justify-content: space-between;
+    z-index: 2;
     button {
       background: none;
       border: none;
@@ -43,13 +59,24 @@
       }
     }
   }
-  .count {
-    align-self: flex-end;
-    color: black;
-    font-size: 24px;
-    margin: 20px auto;
-    position: absolute;
-    width: 100%;
-    text-align: center;
+  .count-container {
+    z-index: 2;
+    position: relative;
+    top: -17px;
+    background-color: white;
+    height: 60px;
+    width: 75px;
+    border-radius: 50%;
+    .count {
+      color: black;
+      font-size: 24px;
+      margin: 20px auto;
+      text-align: center;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .count-container {
+      display: none;
+    }
   }
 }
