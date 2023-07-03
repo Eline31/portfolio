@@ -1,12 +1,8 @@
 @import "../../Utils/style/GlobalStyle.scss";
 
 .card-container {
-  margin: 20px 50px;
-  //   height: 100%;
-  //   width: 865px;
   background-color: $secondary-color;
-  display: flex;
-  flex-direction: column;
+  padding: 0px 0px 10px 0px;
   .title {
     width: 100%;
     display: flex;

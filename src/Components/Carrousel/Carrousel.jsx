@@ -41,41 +41,15 @@ export default function Carrousel() {
           <Loader />
         </div>
       ) : (
-        // <div className="Carrousel-wrapper">
-        //   {experiences.map((experience, index) => {
-        //     return (
-        //       <div
-        //         className={
-        //           index === current
-        //             ? "Xperience Xperience__active"
-        //             : "Xperience"
-        //         }
-        //       >
-        //         <Experience
-        //           experience={experience}
-        //           key={`Xperience-${index}`}
-        //         />
-        //       </div>
-        //     )
-        //   })}
         <div className="Carrousel-wrapper">
-          <div className="Arrows">
-            <button alt="Expérience précédente" onClick={prevSlide}>
-              <img
-                src={chevronleft}
-                className="arrowLeft"
-                alt="Flèche indiquant la gauche"
-              />
-            </button>
-            <button alt="Expérience suivante" onClick={nextSlide}>
-              <img
-                src={chevronright}
-                className="arrowRight"
-                alt="Flèche indiquant la droite"
-              />
-            </button>
-          </div>
-          <>
+          <button alt="Expérience précédente" onClick={prevSlide}>
+            <img
+              src={chevronleft}
+              className="arrowLeft"
+              alt="Flèche indiquant la gauche"
+            />
+          </button>
+          <div className="Xpe">
             {experiences.map((experience, index) => {
               return (
                 <div
@@ -92,12 +66,14 @@ export default function Carrousel() {
                 </div>
               )
             })}
-          </>
-          <div className="count-container">
-            <p className="count">
-              {current + 1} / {experiences.length}
-            </p>
           </div>
+          <button alt="Expérience suivante" onClick={nextSlide}>
+            <img
+              src={chevronright}
+              className="arrowRight"
+              alt="Flèche indiquant la droite"
+            />
+          </button>
         </div>
       )}
     </>
