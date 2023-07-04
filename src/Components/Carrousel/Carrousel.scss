@@ -7,21 +7,29 @@
   flex-wrap: nowrap;
   justify-content: center;
   // max-height: 850px;
-  // height: 100%;
+  height: 100%;
   width: 100%;
   // align-items: center;
   margin: 0px 50px;
   // overflow: hidden;
-  button {
+  .buttons {
     background: none;
     border: none;
     cursor: pointer;
     transition: all 300ms ease-in-out;
     height: 100%;
-    .arrowLeft,
+    position: relative;
+    // top: -140px;
+    display: flex;
+    margin: 10px 5px 0px 5px;
+    .arrowLeft {
+      transform: scale(1);
+      height: 50px;
+    }
     .arrowRight {
       transform: scale(1);
       height: 50px;
+      // left: 40px;
     }
     &:active {
       transform: scale(2);
@@ -43,7 +51,7 @@
       transform: scale(0.92);
       opacity: 0;
       position: absolute;
-      height: 100%;
+      // height: 100%;
       // width: 90%;
       &__active {
         transform: scale(1);

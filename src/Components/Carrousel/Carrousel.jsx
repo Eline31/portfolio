@@ -42,13 +42,17 @@ export default function Carrousel() {
         </div>
       ) : (
         <div className="Carrousel-wrapper">
-          <button alt="Expérience précédente" onClick={prevSlide}>
+          <div
+            className="buttons"
+            alt="Expérience précédente"
+            onClick={prevSlide}
+          >
             <img
               src={chevronleft}
               className="arrowLeft"
               alt="Flèche indiquant la gauche"
             />
-          </button>
+          </div>
           <div className="Xpe">
             {experiences.map((experience, index) => {
               return (
@@ -67,13 +71,17 @@ export default function Carrousel() {
               )
             })}
           </div>
-          <button alt="Expérience suivante" onClick={nextSlide}>
+          <div
+            className="buttons"
+            alt="Expérience suivante"
+            onClick={nextSlide}
+          >
             <img
               src={chevronright}
               className="arrowRight"
               alt="Flèche indiquant la droite"
             />
-          </button>
+          </div>
         </div>
       )}
     </>
