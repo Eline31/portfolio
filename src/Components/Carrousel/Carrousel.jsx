@@ -53,24 +53,29 @@ export default function Carrousel() {
               alt="Flèche indiquant la gauche"
             />
           </div>
-          <div className="Xpe">
+          <>
             {experiences.map((experience, index) => {
               return (
-                <div
+                // <div
+                //   className={
+                //     index === current
+                //       ? "Xperience Xperience__active"
+                //       : "Xperience"
+                //   }
+                // >
+                <Experience
                   className={
                     index === current
                       ? "Xperience Xperience__active"
                       : "Xperience"
                   }
-                >
-                  <Experience
-                    experience={experience}
-                    key={`Xperience-${index}`}
-                  />
-                </div>
+                  experience={experience}
+                  key={`Xperience-${index}`}
+                />
+                // </div>
               )
             })}
-          </div>
+          </>
           <div
             className="buttons"
             alt="Expérience suivante"

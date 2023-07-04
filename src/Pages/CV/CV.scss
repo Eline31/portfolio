@@ -1,13 +1,19 @@
+@import "../../Utils/style/GlobalStyle.scss";
+
 .cv-wrapper {
+  grid-column: span 4;
   margin: 0px 50px;
-  display: flex;
-  flex-direction: column;
-  // width: 100%;
-  // height: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, auto);
   h1 {
     display: block;
+    margin-top: 0px;
+    grid-column: span 3;
   }
   .contentContainer {
+    // grid-row: 1fr;
+    grid-column: span 3;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;

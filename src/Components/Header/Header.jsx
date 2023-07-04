@@ -8,7 +8,7 @@ export default function Header() {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
-    <>
+    <div className="Header">
       <div
         className={isOpen ? "burger-menu burger-menu__open" : "burger-menu"}
         onClick={() => setIsOpen(!isOpen)}
@@ -43,6 +43,6 @@ export default function Header() {
           Contact
         </StyledLink>
       </nav>
-    </>
+    </div>
   )
 }

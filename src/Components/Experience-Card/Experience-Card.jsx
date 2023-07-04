@@ -6,7 +6,7 @@ export default function Experience({ experience }) {
 
   const activity = activitiesList?.map((activity, index) => {
     return (
-      <div className="content" key={`${activity}-${index}`}>
+      <>
         <h5>{activity.title}</h5>
         <span>
           {activity.description?.map((description, index) => {
@@ -18,7 +18,7 @@ export default function Experience({ experience }) {
           })}
         </span>
         <p className="content__examples">{activity.examples}</p>
-      </div>
+      </>
     )
   })
 
@@ -35,7 +35,9 @@ export default function Experience({ experience }) {
           <p className="title__details__place">{experience.place}</p>
         </div>
       </div>
-      {activity}
+      <div className="content" key={activity}>
+        {activity}
+      </div>
     </div>
   )
 }
