@@ -3,17 +3,19 @@
 .card-container {
   background-color: $secondary-color;
   padding: 0px 0px 10px 0px;
-  display: grid;
-  grid-template-rows: 120px auto;
+  // display: grid;
+  // grid-template-rows: 120px auto;
   .title {
     display: flex;
     justify-content: space-between;
-    height: 120px;
-    max-height: 130px;
+    min-height: 120px;
+    // max-height: 130px;
     align-items: center;
     border-bottom: 3px solid white;
     padding: 0px 20px 10px 20px;
+    // flex-wrap: wrap;
     &__main {
+      max-width: 70%;
       h2 {
         color: $primary-color;
         font-size: 1.3rem;
@@ -38,10 +40,11 @@
       align-items: flex-end;
       justify-content: space-between;
       height: 100%;
+      min-width: 19%;
       &__dates {
         font-size: 1.2rem;
         color: grey;
-        margin: 17px 0px 0px 0px;
+        // margin: 17px 0px 0px 0px;
       }
       &__place {
         font-size: 1.2rem;

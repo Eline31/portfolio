@@ -4,11 +4,15 @@
   grid-column: span 2;
   display: grid;
   grid-template-columns: 50px 1fr 50px;
+  grid-auto-rows: min-content;
   grid-gap: 10px;
-  width: 100%;
-  min-width: 750px;
-  max-width: 1000px;
+  min-width: 70%;
+  // max-width: 100%;
   position: relative;
+  h2 {
+    grid-column: span 3;
+    color: $primary-color;
+  }
   .buttons {
     background: none;
     border: none;

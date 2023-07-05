@@ -42,6 +42,7 @@ export default function Carrousel() {
         </div>
       ) : (
         <div className="Carrousel-wrapper">
+          <h2>Expériences</h2>
           <div
             className="buttons"
             alt="Expérience précédente"

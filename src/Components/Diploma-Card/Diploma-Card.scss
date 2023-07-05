@@ -1,7 +1,28 @@
 @import "../../Utils/style/GlobalStyle.scss";
 
 .Diploma-Wrapper {
-  grid-column: span 1;
-  width: 300px;
-  height: 300px;
+  //   width: 30%;
+  max-width: 100%;
+  min-width: 300px;
+  padding: 0px 20px;
+  h2 {
+    color: $primary-color;
+  }
+  .diploma-content {
+    margin: 10px 0px;
+    .datesplace {
+      color: grey;
+      text-transform: uppercase;
+      margin: 0px;
+    }
+    .title {
+      margin: 0px;
+      font-size: 0.9rem;
+    }
+    .description {
+      font-size: 0.9rem;
+      margin: 0px;
+      color: grey;
+    }
+  }
 }
