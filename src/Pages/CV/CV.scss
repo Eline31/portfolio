@@ -5,22 +5,16 @@
   margin: 0px 50px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, auto);
+  grid-template-rows: 100px repeat(2, minmax(130px, 805px));
   h1 {
     display: block;
     margin-top: 0px;
     grid-column: span 3;
+    align-self: center;
   }
   .contentContainer {
-    // grid-row: 1fr;
     grid-column: span 3;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-
-    .diplomas {
-      width: 300px;
-      height: 300px;
-    }
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
   }
 }

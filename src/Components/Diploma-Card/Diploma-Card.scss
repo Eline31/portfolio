@@ -1,5 +1,7 @@
 @import "../../Utils/style/GlobalStyle.scss";
 
-Diploma-Wrapper {
-  grid-column: 1fr;
+.Diploma-Wrapper {
+  grid-column: span 1;
+  width: 300px;
+  height: 300px;
 }
