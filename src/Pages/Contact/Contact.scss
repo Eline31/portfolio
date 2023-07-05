@@ -1,0 +1,25 @@
+@import "../../Utils//style/GlobalStyle.scss";
+
+.contact-wrapper {
+  margin: 50px;
+  .item {
+    display: flex;
+    margin: 10px 0px;
+    align-items: center;
+    border-bottom: 1px solid $primary-color;
+    &__title {
+      font-weight: 700;
+      width: 120px;
+    }
+    &__content {
+      font-size: 0.9rem;
+      color: grey;
+    }
+    img {
+      height: 40px;
+      width: 40px;
+      margin-right: 30px;
+      justify-content: center;
+    }
+  }
+}
