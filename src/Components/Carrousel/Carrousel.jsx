@@ -58,9 +58,7 @@ export default function Carrousel() {
               return (
                 <div
                   className={
-                    index === current
-                      ? "Xperience Xperience__active"
-                      : "Xperience"
+                    index === current ? "Xperience__active" : "Xperience"
                   }
                 >
                   <Experience

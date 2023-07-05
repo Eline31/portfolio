@@ -6,6 +6,8 @@
   grid-template-columns: 50px 1fr 50px;
   grid-gap: 10px;
   width: 100%;
+  min-width: 750px;
+  max-width: 1000px;
   position: relative;
   .buttons {
     background: none;
@@ -14,10 +16,8 @@
     transition: all 300ms ease-in-out;
     margin: 10px 5px 0px 5px;
     justify-self: center;
-    .arrowLeft {
-      transform: scale(1);
-      height: 50px;
-    }
+    height: 50px;
+    .arrowLeft,
     .arrowRight {
       transform: scale(1);
       height: 50px;
@@ -38,6 +38,7 @@
       &__active {
         transform: scale(1);
         opacity: 1;
+        transition: all 600ms ease-in-out;
       }
     }
     @media only screen and (max-width: 768px) {
