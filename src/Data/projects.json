@@ -1,0 +1,82 @@
+[
+  {
+    "field": "Développement web",
+    "name": "Projet 1 - Booki",
+    "image": "../Assets/2-Booki.jpg",
+    "purpose": "Intégration d'une maquette en HTML5 et CSS3",
+    "firm": "OpenClassrooms",
+    "knowledges": [
+      {
+        "title": "HTML",
+        "icon": "../Assets/html.png"
+      },
+      {
+        "title": "CSS",
+        "icon": "../Assets/css-3.png"
+      },
+      {
+        "title": "Figma",
+        "icon": "../Assets/figma.png"
+      },
+      {
+        "title": "GitHub",
+        "icon": "../Assets/github.png"
+      }
+    ]
+  },
+  {
+    "field": "Développement web",
+    "name": "Projet 2 - Ohmyfood",
+    "image": "../Assets/3-Ohmyfood.jpg",
+    "description": "Développer un site internet responsive avec Sass à partir d'une maquette desktop",
+    "firm": "OpenClassrooms",
+    "knowledges": [
+      {
+        "title": "Sass",
+        "icon": "../Assets/html.png"
+      },
+      {
+        "title": "GitHub Pages",
+        "icon": "../Assets/github.png"
+      },
+      {
+        "title": "Git Bash",
+        "icon": "../Assets/git.png"
+      }
+    ]
+  },
+  {
+    "field": "Développement web",
+    "name": "Projet 3 - La Panthère",
+    "image": "../Assets/4-Panthère",
+    "description": "Améliorer le positionnement, l'accessibilité et la vitesse d'un site internet",
+    "firm": "OpenClassrooms",
+    "knowledges": [
+      {
+        "title": "GTMetrix",
+        "icon": "../Assets/TMetrix.png"
+      },
+      {
+        "title": "Lighthouse",
+        "icon": "../Assets/lighthouse.svg"
+      }
+    ]
+  },
+  {
+    "field": "Développement web",
+    "name": "Projet 4 - Kanap",
+    "image": "../Assets/5-Kanap",
+    "description": "Création d'une plateforme de e-commerce : Création du contenu dynamique du site dont la structure existait déjà par l'intégration des produits grâce à une API et JavaScript et mise en place d'un plan de tests d'acceptation",
+    "firm": "OpenClassrooms",
+    "knowledges": [
+      {
+        "title": "API",
+        "icon": "../Assets/database.png"
+      },
+      {
+        "title": "JavaScript",
+        "icon": "../Assets/java-script.png"
+      }
+    ]
+  }
+]
