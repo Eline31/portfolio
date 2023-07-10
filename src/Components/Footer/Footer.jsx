@@ -25,7 +25,7 @@ export default function Footer() {
           <img src={twitter} alt="Icône de twitter" />
         </a>
       </div>
-      <p>Designed & Developed on ReactJs ©2023 by Eline Chb</p>
+      <p>Imaginé & développé sur ReactJs ©2023 par Eline Chb</p>
     </div>
   )
 }

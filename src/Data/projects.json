@@ -66,7 +66,7 @@
     "field": "Développement web",
     "name": "Projet 4 - Kanap",
     "image": "../Assets/5-Kanap",
-    "description": "Création d'une plateforme de e-commerce : Création du contenu dynamique du site dont la structure existait déjà par l'intégration des produits grâce à une API et JavaScript et mise en place d'un plan de tests d'acceptation",
+    "description": "Créer une plateforme de e-commerce : Création du contenu dynamique du site dont la structure existait déjà par l'intégration des produits grâce à une API et JavaScript et mise en place d'un plan de tests d'acceptation",
     "firm": "OpenClassrooms",
     "knowledges": [
       {
@@ -76,6 +76,56 @@
       {
         "title": "JavaScript",
         "icon": "../Assets/java-script.png"
+      }
+    ]
+  },
+  {
+    "field": "Développement web",
+    "name": "Projet 5 - Piiquante",
+    "image": "../Assets/6-Piiquante",
+    "description": "Créer une API Rest",
+    "firm": "OpenClassrooms",
+    "knowledges": [
+      {
+        "title": "API Rest",
+        "icon": "../Assets/database.png"
+      },
+      {
+        "title": "MongoDB",
+        "icon": "../Assets/mongoDB.png"
+      },
+      {
+        "title": "Express",
+        "icon": "../Assets/express.png"
+      },
+      {
+        "title": "Open Web Application Security Project (OWASP)",
+        "icon": "../Assets/owasp.png"
+      }
+    ]
+  },
+  {
+    "field": "Développement web",
+    "name": "Projet 6 - KASA",
+    "image": "../Assets/7-Kasa",
+    "description": "Créer une application web de location immobilière avec React",
+    "firm": "OpenClassrooms",
+    "knowledges": [
+      {
+        "title": "API Rest",
+        "icon": "../Assets/database.png"
+      },
+      {
+        "title": "MongoDB",
+        "icon": "../Assets/mongoDB.png"
+      },
+      {
+        "title": "Express",
+        "icon": "../Assets/express.png"
+      },
+      {
+        "title": "Open Web Application Security Project (OWASP)",
+        "icon": "../Assets/owasp.png"
       }
     ]
   }

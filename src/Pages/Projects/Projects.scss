@@ -1,0 +1,13 @@
+@import "../../Utils/style/GlobalStyle.scss";
+
+.page-content {
+  grid-column: span 4;
+  .projects-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), 1fr));
+    grid-gap: 30px;
+    padding: 30px 50px;
+    border: 2px solid $primary-color;
+    border-radius: 3%;
+  }
+}
