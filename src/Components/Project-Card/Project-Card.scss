@@ -1,23 +1,31 @@
 @import "../../Utils/style/GlobalStyle.scss";
 
 .project-wrapper {
-  background-color: $secondary-color;
-  height: 300px;
-  border-radius: 3%;
-  padding: 10px;
-  img {
-  }
-  h2 {
-    color: $primary-color;
-    font-size: 1.1rem;
-    text-transform: uppercase;
-    margin: 10px 0px 5px 0px;
-  }
-  h3 {
-    color: grey;
-    font-size: 1rem;
-    font-weight: 400;
-    font-style: italic;
-    margin: 0px;
+  .project-card {
+    background-color: $secondary-color;
+    height: 300px;
+    border-radius: 3%;
+    padding: 10px;
+    cursor: pointer;
+    &:hover {
+      filter: drop-shadow(2px 3px 4px rgb(155, 155, 155));
+      opacity: 0.9;
+    }
+    img {
+      height: 50px;
+    }
+    h2 {
+      color: $primary-color;
+      font-size: 1.1rem;
+      text-transform: uppercase;
+      margin: 10px 0px 5px 0px;
+    }
+    h3 {
+      color: grey;
+      font-size: 1rem;
+      font-weight: 400;
+      font-style: italic;
+      margin: 0px;
+    }
   }
 }
