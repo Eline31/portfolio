@@ -2,6 +2,7 @@ import "./Projects.scss"
 import Project from "../../Components/Project-Card/Project-Card"
 import projects from "../../Data/projects.json"
 import { useState } from "react"
+// import "../../Assets"
 
 export default function Projects() {
   const [isOpen, setIsOpen] = useState(false)
@@ -18,16 +19,11 @@ export default function Projects() {
   return (
     <div className="page-content">
       <h1>Mes projets</h1>
-      <>
-        {isOpen ? (
-          <>
-        <div className="detailed-project" isOpen>
-
-        </div>
-        <div className="projects-wrapper">
+      <div className="projects-wrapper">
         {projects?.map((project, index) => (
           <Project
-            onClick={setIsOpen(!isOpen)}
+            onClick={() => setIsOpen(!isOpen)}
+            // isOpen={isOpen}
             key={index}
             picture={project.image}
             name={project.name}
@@ -37,25 +33,7 @@ export default function Projects() {
             knowledges={project.knowledges}
           />
         ))}
-        </>
-        ) : (
-          <div className="projects-wrapper">
-        {projects?.map((project, index) => (
-          <Project
-            onClick={setIsOpen(!isOpen)}
-            key={index}
-            picture={project.image}
-            name={project.name}
-            field={project.field}
-            purpose={project.purpose}
-            firm={project.firm}
-            knowledges={project.knowledges}
-          />
-        ))}
-          </div>
-        )
-        }
-        </>
+      </div>
     </div>
   )
 }

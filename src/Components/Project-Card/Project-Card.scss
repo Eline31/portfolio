@@ -28,4 +28,10 @@
       margin: 0px;
     }
   }
+  .project-details-wrapper {
+    height: 300px;
+    width: 500px;
+    z-index: 2;
+    background-color: $secondary-color;
+  }
 }

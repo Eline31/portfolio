@@ -1,5 +1,5 @@
 import "./Project-Card.scss"
-import { useState } from "react"
+// import { useState } from "react"
 
 export default function Project({
   picture,
@@ -8,8 +8,9 @@ export default function Project({
   purpose,
   firm,
   knowledges,
+  isOpen,
 }) {
-  const [isOpen, setIsOpen] = useState(false)
+  // const [isOpen, setIsOpen] = useState(false)
 
   const icons = knowledges?.map((knowledge, index) => {
     return (
@@ -22,20 +23,18 @@ export default function Project({
   })
 
   return (
+    <>
       <div className="project-wrapper">
         <div className="project-card">
-        <img src={picture} alt="Projet" />
-        <h2>{name}</h2>
-        <h3>{field}</h3>
-        <p className="description">{purpose}</p>
-        <p className="structure">Structure : {firm}</p>
-        <div className="knowledges">{icons}</div>
+          <img src={picture} alt="Projet" />
+          <h2>{name}</h2>
+          <h3>{field}</h3>
+          <p className="description">{purpose}</p>
+          <p className="structure">Structure : {firm}</p>
+          <div className="knowledges">{icons}</div>
         </div>
-        {isOpen? (
-          <div className="project-details">
-
-          </div>
-        )}
+        {isOpen ? <div className="project-details-wrapper">Coucou</div> : null}
       </div>
+    </>
   )
 }
