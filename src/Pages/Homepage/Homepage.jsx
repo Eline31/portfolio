@@ -8,8 +8,8 @@ export default function Homepage() {
       <div className="presentation-wrapper">
         <p className="quote quote__open">«</p>
         <p>
-          J'aime comprendre une problématique et pouvoir y apporter une réponse
-          tangible, de sa conception à sa réalisation et son expérimentation.
+          J’aime accompagner un projet de la problématique dont il émerge, à sa
+          conception, sa réalisation et enfin son expérimentation.
         </p>
         <p className="quote quote__close">»</p>
       </div>
