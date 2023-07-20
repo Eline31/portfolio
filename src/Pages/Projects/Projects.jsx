@@ -1,11 +1,8 @@
 import "./Projects.scss"
 import Project from "../../Components/Project-Card/Project-Card"
 import projects from "../../Data/projects.json"
-import { useState } from "react"
-// import "../../Assets"
 
 export default function Projects() {
-  const [isOpen, setIsOpen] = useState(false)
   // const icons = knowledges?.map((knowledge, index) => {
   //   return (
   //     <img
@@ -22,14 +19,12 @@ export default function Projects() {
       <div className="projects-wrapper">
         {projects?.map((project, index) => (
           <Project
-            // onClick={() => setIsOpen(!isOpen)}
-            isOpen={isOpen}
-            setIsOpen={setIsOpen}
             key={index}
             picture={project.image}
             name={project.name}
             field={project.field}
             purpose={project.purpose}
+            description={project.description}
             firm={project.firm}
             knowledges={project.knowledges}
           />

@@ -1,22 +1,26 @@
 @import "../../Utils/style/GlobalStyle.scss";
 
 .project-wrapper {
+  display: flex;
+  justify-content: center;
   .project-card {
     background-color: $secondary-color;
     height: 300px;
-    border-radius: 3%;
+    width: 100%;
+    border-radius: 10px;
     padding: 10px;
     cursor: pointer;
     display: flex;
     flex-direction: column;
     padding: 15px;
+    justify-content: space-between;
     &:hover {
       filter: drop-shadow(2px 3px 4px rgb(155, 155, 155));
       opacity: 0.9;
     }
     img {
-      height: 100px;
-      width: 100px;
+      height: 60px;
+      width: 100%;
     }
     h2 {
       color: $primary-color;
@@ -31,9 +35,8 @@
       font-style: italic;
       margin: 0px;
     }
-    .description {
-    }
-    .structure {
+    .purpose {
+      margin: 10px 0px;
     }
     .knowledges {
       display: flex;
@@ -47,8 +50,90 @@
   }
   .project-details-wrapper {
     height: 300px;
-    width: 500px;
+    padding: 20px;
     z-index: 2;
     background-color: $secondary-color;
+    margin: 230px 100px;
+    position: fixed;
+    border-radius: 10px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    opacity: 0;
+    transform: scale(0.8);
+    transition: all 300ms ease-in-out;
+    &__active {
+      opacity: 1;
+      scale: 1;
+      transform: scale(1);
+      filter: drop-shadow(2px 3px 4px rgb(155, 155, 155));
+    }
+    img {
+      width: 35%;
+      height: 100%;
+    }
+    .project-content {
+      width: 65%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      position: relative;
+      .close {
+        height: 20px;
+        width: 20px;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        margin: 0px 0px 10px 10px;
+        cursor: pointer;
+      }
+      .main-info {
+        display: flex;
+        flex-direction: column;
+        // justify-content: space-between;
+        flex-wrap: wrap;
+        span {
+          display: flex;
+          h2 {
+            margin: 0px 0px 10px 0px;
+            font-size: 1.2rem;
+            // padding-right: 10px;
+            &::after {
+              content: "  •";
+            }
+          }
+          h3 {
+            color: grey;
+            font-size: 1.1rem;
+            font-weight: 400;
+            font-style: italic;
+            margin: 0px 0px 0px 5px;
+          }
+        }
+        p {
+          text-transform: uppercase;
+          margin: 0px;
+          font-size: 0.9rem;
+        }
+      }
+      .details {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .description {
+          font-weight: 200;
+        }
+        .knowledges {
+          img {
+            padding-right: 5px;
+          }
+        }
+      }
+    }
   }
 }
