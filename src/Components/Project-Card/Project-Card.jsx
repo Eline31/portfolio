@@ -1,5 +1,4 @@
 import "./Project-Card.scss"
-// import { useState } from "react"
 
 export default function Project({
   picture,
@@ -9,9 +8,8 @@ export default function Project({
   firm,
   knowledges,
   isOpen,
+  setIsOpen,
 }) {
-  // const [isOpen, setIsOpen] = useState(false)
-
   const icons = knowledges?.map((knowledge, index) => {
     return (
       <img
@@ -25,7 +23,7 @@ export default function Project({
   return (
     <>
       <div className="project-wrapper">
-        <div className="project-card">
+        <div className="project-card" onClick={() => setIsOpen(!isOpen)}>
           <img src={picture} alt="Projet" />
           <h2>{name}</h2>
           <h3>{field}</h3>

@@ -22,8 +22,9 @@ export default function Projects() {
       <div className="projects-wrapper">
         {projects?.map((project, index) => (
           <Project
-            onClick={() => setIsOpen(!isOpen)}
-            // isOpen={isOpen}
+            // onClick={() => setIsOpen(!isOpen)}
+            isOpen={isOpen}
+            setIsOpen={setIsOpen}
             key={index}
             picture={project.image}
             name={project.name}
