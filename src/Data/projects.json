@@ -2,140 +2,148 @@
   {
     "field": "Développement web",
     "name": "Booki",
-    "image": "data:image/jpg;base64,../Assets/2-Booki.jpg",
+    "image": "https://i.imgur.com/27Xmn2H.jpg",
     "purpose": "Intégrer une maquette en HTML5 et CSS3",
     "description": "L'objectif était de créer un site internet permettant aux utilisateurs de trouver des hébergements et des activités dans la ville de leur choix et ce en HTML et CSS à partir d'une maquette Figma",
     "firm": "OpenClassrooms",
     "knowledges": [
       {
         "title": "HTML",
-        "icon": "../Assets/html.png"
+        "icon": "https://i.imgur.com/N3CNTcS.png"
       },
       {
         "title": "CSS",
-        "icon": "../Assets/css-3.png"
+        "icon": "https://i.imgur.com/9LXNkDB.png"
       },
       {
         "title": "Figma",
-        "icon": "../Assets/figma.png"
+        "icon": "https://i.imgur.com/sxQ6dey.png"
       },
       {
         "title": "GitHub",
-        "icon": "../Assets/github.png"
+        "icon": "https://i.imgur.com/UrwKOU5.png"
       }
     ]
   },
   {
     "field": "Développement web",
     "name": "Ohmyfood",
-    "image": "../Assets/3-Ohmyfood.jpg",
+    "image": "https://i.imgur.com/icoWZLc.jpg",
     "purpose": "Développer un site internet responsive avec Sass à partir d'une maquette desktop",
     "description": "L'objectif du projet était de développer un site web dynamique et mobile-first puis desktop à partir d'une maquette Figma. Ce site comprend également des animations CSS modernes et a été développé avec l'utilisation de Sass et d'un système de gestion de versions pour le suivi et l'hébergement du projet (GitHub et Git Bash).",
     "firm": "OpenClassrooms",
     "knowledges": [
       {
         "title": "Sass",
-        "icon": "../Assets/html.png"
+        "icon": "https://i.imgur.com/NARKweA.png"
       },
       {
         "title": "GitHub Pages",
-        "icon": "../Assets/github.png"
+        "icon": "https://i.imgur.com/UrwKOU5.png"
       },
       {
         "title": "Git Bash",
-        "icon": "../Assets/git.png"
+        "icon": "https://i.imgur.com/hk8yAfd.png"
       }
     ]
   },
   {
     "field": "Développement web",
     "name": "La Panthère",
-    "image": "../Assets/4-Panthère",
+    "image": "https://i.imgur.com/hE3DDW2.jpg",
     "purpose": "Améliorer le positionnement, l'accessibilité et la vitesse d'un site internet",
     "description": "Ce projet consistait en l'optimisation et la mise en conformité d'un site web préexistant. Il a d'abord fallu analyser l'état actuel de SEO du site fourni afin de préconiser des recommandations d'amélioration, puis implémenter ces améliorations et enfin comparer les résultats de ces améliorations et produire un rapport d'optimisation. Ont été pris en compte le positionnement du site sur les navigateurs, son optimisation technique et son accessibilité.",
     "firm": "OpenClassrooms",
     "knowledges": [
       {
         "title": "GTMetrix",
-        "icon": "../Assets/TMetrix.png"
+        "icon": "https://i.imgur.com/SXPplR0.png"
       },
       {
         "title": "Lighthouse",
-        "icon": "../Assets/lighthouse.svg"
+        "icon": "https://i.imgur.com/39tww6p.png"
       }
     ]
   },
   {
     "field": "Développement web",
     "name": "Kanap",
-    "image": "../Assets/5-Kanap.jpg",
+    "image": "https://i.imgur.com/TYuZPpJ.jpg",
     "purpose": "Créer une plateforme de e-commerce avec JavaScript",
     "description": "Ce projet consistait en la création du contenu dynamique du site dont la structure existait déjà par l'intégration des produits grâce à une API et JavaScript et en la mise en place d'un plan de tests d'acceptation. Ce projet m'aurait également permis d'apprendre à valider des données issues de sources externes (ici, de l'API). A également été utilisé l'outil Postman pour tester la communication avec l'API.",
     "firm": "OpenClassrooms",
     "knowledges": [
       {
         "title": "Postman",
-        "icon": "../Assets/postman.svg"
+        "icon": "https://i.imgur.com/14eDNmK.png"
       },
       {
         "title": "API Rest",
-        "icon": "../Assets/database.png"
+        "icon": "https://i.imgur.com/TmI17nV.png"
       },
       {
         "title": "JavaScript",
-        "icon": "../Assets/java-script.png"
+        "icon": "https://i.imgur.com/XWA7Iga.png"
+      },
+      {
+        "title": "NodeJS",
+        "icon": "https://i.imgur.com/LT169KV.png"
       }
     ]
   },
   {
     "field": "Développement web",
     "name": "Piiquante",
-    "image": "../Assets/6-Piiquante.jpg",
+    "image": "https://i.imgur.com/d1nShCy.jpg",
     "purpose": "Construire une API Rest",
     "description": "Ce projet consistait en la construction d'une API pour une application web suivant des spécifications données. Lors de la construction de cette API, il a fallu stocker des données de manière sécurisée, suivre la réglementation (RGPD, OWASP), mettre en oeuvre des opérations CRUD de manière sécurisée. Ce projet m'a permis de me familiariser avec MongoDB, Mongoose, les JSON web tokens et le package Multer.",
     "firm": "OpenClassrooms",
     "knowledges": [
       {
         "title": "API Rest",
-        "icon": "../Assets/database.png"
+        "icon": "https://i.imgur.com/TmI17nV.png"
+      },
+      {
+        "title": "NodeJS",
+        "icon": "https://i.imgur.com/LT169KV.png"
       },
       {
         "title": "MongoDB",
-        "icon": "../Assets/mongoDB.png"
+        "icon": "https://i.imgur.com/oaMcuZy.png"
       },
       {
         "title": "Express",
-        "icon": "../Assets/express.png"
+        "icon": "https://i.imgur.com/1vYa1vA.png"
       },
       {
         "title": "Open Web Application Security Project (OWASP)",
-        "icon": "../Assets/owasp.png"
+        "icon": "https://i.imgur.com/LShYto3.png"
       }
     ]
   },
   {
     "field": "Développement web",
     "name": "KASA",
-    "image": "../Assets/7-Kasa",
+    "image": "https://i.imgur.com/dPZiFLn.jpg",
     "purpose": "Créer une application web de location immobilière avec React",
     "description": "Ce projet a consisté en la refonte totale d'un site web pour créer à la place une application web basée sur React côté front-end et JavaScript et NodeJS côté back-end. J'ai développé l'ensemble de l'application à partir des maquettes Figma, les composants React, les routes React Router. Des composants complexes et réutilisables ont été produits lors de ce projet comme un collapse et un carrousel d'images. Ce travail m'a permis de me familiariser avec Create React App, React Router et différentes fonctionnalités de React comme les propTypes, UseState, useEffects, useLocation, useRef.",
     "firm": "OpenClassrooms",
     "knowledges": [
       {
         "title": "React",
-        "icon": "../Assets/atomic.png"
+        "icon": "https://i.imgur.com/ZgM87MG.png"
       },
       {
         "title": "MongoDB",
-        "icon": "../Assets/mongoDB.png"
+        "icon": "https://i.imgur.com/oaMcuZy.png"
       },
       {
         "title": "Express",
-        "icon": "../Assets/express.png"
+        "icon": "https://i.imgur.com/1vYa1vA.png"
       },
       {
         "title": "Open Web Application Security Project (OWASP)",
-        "icon": "../Assets/owasp.png"
+        "icon": "https://i.imgur.com/LShYto3.png"
       }
     ]
   }
