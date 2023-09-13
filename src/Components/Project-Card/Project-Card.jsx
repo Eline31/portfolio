@@ -25,7 +25,9 @@ export default function Project({
 
   return (
     <div
-      className="project-wrapper"
+      className={
+        isOpen ? "project-wrapper project-wrapper__active" : "project-wrapper"
+      }
       isOpen={isOpen}
       onClick={() => setIsOpen(!isOpen)}
     >
@@ -36,13 +38,7 @@ export default function Project({
         <p className="purpose">{purpose}</p>
         <div className="knowledges">{icons}</div>
       </div>
-      <div
-        className={
-          isOpen
-            ? "project-details-wrapper project-details-wrapper__active"
-            : "project-details-wrapper"
-        }
-      >
+      <div className="project-details-wrapper">
         <img src={picture} alt="Projet" className="project-pic" />
         <div className="project-content">
           <img

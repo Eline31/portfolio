@@ -3,13 +3,17 @@
 .project-wrapper {
   display: flex;
   justify-content: center;
+  cursor: pointer;
+  &:hover {
+    filter: drop-shadow(2px 3px 4px rgb(155, 155, 155));
+    opacity: 0.9;
+  }
   .project-card {
     background-color: $secondary-color;
     // height: 300px;
     width: 100%;
     border-radius: 10px;
     padding: 10px;
-    cursor: pointer;
     display: flex;
     flex-direction: column;
     padding: 15px;
@@ -17,8 +21,6 @@
     &:hover {
       filter: drop-shadow(2px 3px 4px rgb(155, 155, 155));
       opacity: 0.9;
-    }
-    .project-pic {
     }
     img {
       height: 60px;
@@ -73,19 +75,19 @@
     opacity: 0;
     transform: scale(0.8);
     transition: all 300ms ease-in-out;
-    &__active {
-      opacity: 1;
-      scale: 1;
-      transform: scale(1);
-      filter: drop-shadow(2px 3px 4px rgb(155, 155, 155));
-      max-width: 1000px;
-      .project-pic {
-        margin-right: 15px;
-        max-width: 35%;
-        object-fit: cover;
-        height: auto;
-      }
-    }
+    // &__active {
+    //   opacity: 1;
+    //   scale: 1;
+    //   transform: scale(1);
+    //   filter: drop-shadow(2px 3px 4px rgb(155, 155, 155));
+    //   max-width: 1000px;
+    //   .project-pic {
+    //     margin-right: 15px;
+    //     max-width: 35%;
+    //     object-fit: cover;
+    //     height: auto;
+    //   }
+    // }
     img {
       max-width: 35%;
       height: 100%;
@@ -154,6 +156,23 @@
           }
         }
       }
+    }
+  }
+  &__active {
+    .project-card {
+      .project-pic {
+        margin-right: 15px;
+        max-width: 35%;
+        object-fit: cover;
+        height: auto;
+      }
+    }
+    .project-details-wrapper {
+      opacity: 1;
+      scale: 1;
+      transform: scale(1);
+      filter: drop-shadow(2px 3px 4px rgb(155, 155, 155));
+      max-width: 1000px;
     }
   }
 }
