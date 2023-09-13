@@ -30,7 +30,7 @@ export default function Project({
       onClick={() => setIsOpen(!isOpen)}
     >
       <div className="project-card">
-        <img src={picture} alt="Projet" />
+        <img src={picture} alt="Projet" className="project-pic" />
         <h2>{name}</h2>
         <h3>{field}</h3>
         <p className="purpose">{purpose}</p>
@@ -43,7 +43,7 @@ export default function Project({
             : "project-details-wrapper"
         }
       >
-        <img src={picture} alt="Projet" />
+        <img src={picture} alt="Projet" className="project-pic" />
         <div className="project-content">
           <img
             src={close}

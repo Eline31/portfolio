@@ -5,7 +5,7 @@
   justify-content: center;
   .project-card {
     background-color: $secondary-color;
-    height: 300px;
+    // height: 300px;
     width: 100%;
     border-radius: 10px;
     padding: 10px;
@@ -18,38 +18,44 @@
       filter: drop-shadow(2px 3px 4px rgb(155, 155, 155));
       opacity: 0.9;
     }
+    .project-pic {
+    }
     img {
       height: 60px;
       width: 100%;
     }
     h2 {
       color: $primary-color;
-      font-size: 1.1rem;
+      font-size: 1rem;
       text-transform: uppercase;
       margin: 10px 0px 5px 0px;
     }
     h3 {
       color: grey;
-      font-size: 1rem;
+      font-size: 0.9rem;
       font-weight: 400;
       font-style: italic;
       margin: 0px;
     }
     .purpose {
-      margin: 10px 0px;
+      margin: 5px 0px;
+      font-size: 13px;
     }
     .knowledges {
+      align-self: center;
       display: flex;
-      justify-content: center;
+      justify-content: space-around;
+      width: fit-content;
       img {
-        height: 50px;
-        width: 50px;
-        padding: 10px;
+        height: 30px;
+        max-width: 75px;
+        object-fit: contain;
+        margin: 10px;
       }
     }
   }
   .project-details-wrapper {
-    height: 300px;
+    height: fit-content;
     padding: 20px;
     z-index: 2;
     background-color: $secondary-color;
@@ -62,6 +68,7 @@
     left: 0;
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     flex-wrap: wrap;
     opacity: 0;
     transform: scale(0.8);
@@ -71,13 +78,20 @@
       scale: 1;
       transform: scale(1);
       filter: drop-shadow(2px 3px 4px rgb(155, 155, 155));
+      max-width: 1000px;
+      .project-pic {
+        margin-right: 15px;
+        max-width: 35%;
+        object-fit: cover;
+        height: auto;
+      }
     }
     img {
-      width: 35%;
+      max-width: 35%;
       height: 100%;
     }
     .project-content {
-      width: 65%;
+      max-width: 62%;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
@@ -127,10 +141,16 @@
         justify-content: space-between;
         .description {
           font-weight: 200;
+          font-size: 14px;
         }
         .knowledges {
+          display: flex;
+          justify-content: center;
+          max-height: 40px;
           img {
-            padding-right: 5px;
+            margin: 0px 15px;
+            height: 30px;
+            min-width: 30px;
           }
         }
       }
