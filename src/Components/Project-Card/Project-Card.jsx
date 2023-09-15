@@ -43,19 +43,17 @@ export default function Project({
           isOpen ? "project-details-wrapper__active" : "project-details-wrapper"
         }
       >
+        <img
+          src={close}
+          alt="Fermer"
+          className="close"
+          onClick={() => setIsOpen(!isOpen)}
+        />
         <img src={picture} alt="Projet" className="project-pic" />
         <div className="project-content">
-          <img
-            src={close}
-            alt="Fermer"
-            className="close"
-            onClick={() => setIsOpen(!isOpen)}
-          />
           <div className="main-info">
-            <span>
-              <h2>{name}</h2>
-              <h3>{field}</h3>
-            </span>
+            <h2>{name}</h2>
+            <h3>{field}</h3>
             <p className="structure">{firm}</p>
           </div>
           <div className="details">

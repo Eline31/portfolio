@@ -4,13 +4,8 @@
   display: flex;
   justify-content: center;
   cursor: pointer;
-  // &:hover {
-  //   filter: drop-shadow(2px 3px 4px rgb(155, 155, 155));
-  //   opacity: 0.9;
-  // }
   .project-card {
     background-color: $secondary-color;
-    // height: 300px;
     width: 100%;
     border-radius: 10px;
     padding: 10px;
@@ -22,9 +17,10 @@
       filter: drop-shadow(2px 3px 4px rgb(155, 155, 155));
       opacity: 0.9;
     }
-    img {
-      height: 60px;
+    .project-pic {
+      height: 150px;
       width: 100%;
+      object-fit: cover;
     }
     h2 {
       color: $primary-color;
@@ -59,10 +55,11 @@
   .project-details-wrapper {
     visibility: hidden;
     height: fit-content;
-    padding: 20px;
+    max-width: 1000px;
+    padding: 10px;
     z-index: 2;
     background-color: $secondary-color;
-    margin: 230px 100px;
+    margin: auto;
     position: fixed;
     border-radius: 10px;
     top: 0;
@@ -70,45 +67,43 @@
     bottom: 0;
     left: 0;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
     flex-wrap: wrap;
     opacity: 0;
     transform: scale(0.8);
     transition: all 300ms ease-in-out;
-    img {
-      max-width: 35%;
-      // height: 100%;
-      margin-right: 15px;
+    .close {
+      height: 20px;
+      width: 20px;
+      position: absolute;
+      right: 20px;
+      top: 20px;
+      margin: 0px 0px 10px 10px;
+      cursor: pointer;
+    }
+    .project-pic {
+      margin-bottom: 20px;
+      border-radius: 10px;
       object-fit: cover;
-      height: auto;
+      width: 100%;
+      height: 300px;
     }
     .project-content {
-      max-width: 62%;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
       position: relative;
-      .close {
-        height: 20px;
-        width: 20px;
-        position: absolute;
-        right: 0px;
-        top: 0px;
-        margin: 0px 0px 10px 10px;
-        cursor: pointer;
-      }
+      padding: 10px;
       .main-info {
         display: flex;
         flex-direction: column;
-        // justify-content: space-between;
         flex-wrap: wrap;
         span {
           display: flex;
           h2 {
             margin: 0px 0px 10px 0px;
             font-size: 1.2rem;
-            // padding-right: 10px;
             &::after {
               content: "  •";
             }
@@ -140,6 +135,7 @@
           display: flex;
           justify-content: center;
           max-height: 40px;
+          margin-top: 20px;
           img {
             margin: 0px 15px;
             height: 30px;
@@ -150,13 +146,13 @@
     }
     &__active {
       visibility: visible;
-      display: flex;
-      flex-direction: row;
       background-color: $secondary-color;
       height: fit-content;
-      padding: 20px;
+      width: 80%;
+      max-width: 1000px;
+      padding: 10px;
       z-index: 2;
-      margin: 230px 100px;
+      margin: auto;
       position: fixed;
       border-radius: 10px;
       top: 0;
@@ -164,56 +160,49 @@
       bottom: 0;
       left: 0;
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
       justify-content: space-around;
       flex-wrap: wrap;
       transform: scale(1);
       transition: all 300ms ease-in-out;
       filter: drop-shadow(2px 3px 4px rgb(155, 155, 155));
-      img {
-        max-width: 35%;
-        // height: 100%;
-        margin-right: 15px;
+      .close {
+        height: 20px;
+        width: 20px;
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        margin: 0px 0px 10px 10px;
+        cursor: pointer;
+      }
+      .project-pic {
+        width: 100%;
         object-fit: cover;
-        height: auto;
+        height: 300px;
+        border-radius: 10px;
+        margin-bottom: 20px;
       }
       .project-content {
-        max-width: 62%;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         position: relative;
-        .close {
-          height: 20px;
-          width: 20px;
-          position: absolute;
-          right: 0px;
-          top: 0px;
-          margin: 0px 0px 10px 10px;
-          cursor: pointer;
-        }
+        padding: 10px;
         .main-info {
           display: flex;
           flex-direction: column;
-          // justify-content: space-between;
           flex-wrap: wrap;
-          span {
-            display: flex;
-            h2 {
-              margin: 0px 0px 10px 0px;
-              font-size: 1.2rem;
-              // padding-right: 10px;
-              &::after {
-                content: "  •";
-              }
-            }
-            h3 {
-              color: grey;
-              font-size: 1.1rem;
-              font-weight: 400;
-              font-style: italic;
-              margin: 0px 0px 0px 5px;
-            }
+          display: flex;
+          h2 {
+            margin: 0px 0px 5px 0px;
+            font-size: 1.2rem;
+          }
+          h3 {
+            color: grey;
+            font-size: 1.1rem;
+            font-weight: 400;
+            font-style: italic;
+            margin: 0px 0px 10px 0px;
           }
           p {
             text-transform: uppercase;
@@ -234,6 +223,7 @@
             display: flex;
             justify-content: center;
             max-height: 40px;
+            margin-top: 20px;
             img {
               margin: 0px 15px;
               height: 30px;
@@ -245,20 +235,3 @@
     }
   }
 }
-// &__active {
-//   .project-card {
-//     .project-pic {
-//       margin-right: 15px;
-//       max-width: 35%;
-//       object-fit: cover;
-//       height: auto;
-//     }
-//   }
-//   .project-details-wrapper {
-//     opacity: 1;
-//     scale: 1;
-//     transform: scale(1);
-//     filter: drop-shadow(2px 3px 4px rgb(155, 155, 155));
-//     max-width: 1000px;
-//   }
-// }}

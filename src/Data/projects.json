@@ -4,7 +4,7 @@
     "name": "Booki",
     "image": "https://i.imgur.com/27Xmn2H.jpg",
     "purpose": "Intégrer une maquette en HTML5 et CSS3",
-    "description": "L'objectif était de créer un site internet permettant aux utilisateurs de trouver des hébergements et des activités dans la ville de leur choix et ce en HTML et CSS à partir d'une maquette Figma",
+    "description": "L'objectif était de créer un site internet permettant aux utilisateurs de trouver des hébergements et des activités dans la ville de leur choix et ce en HTML et CSS à partir d'une maquette Figma.",
     "firm": "OpenClassrooms",
     "knowledges": [
       {
@@ -144,6 +144,142 @@
       {
         "title": "Open Web Application Security Project (OWASP)",
         "icon": "https://i.imgur.com/LShYto3.png"
+      }
+    ]
+  },
+  {
+    "field": "Innovation / Gestion de projets / Animation",
+    "name": "Newspapers Innovation",
+    "image": "https://i.imgur.com/Xs15pAn.png",
+    "purpose": "Permettre aux entreprises de mettre en récit leurs initiatives, leurs défis autour de l'innovation",
+    "description": "Les newspapers étaient co-créés avec des entreprises afin de mettre en récit leurs initiatives autour de l'innovation, de fédérer une communauté ou leurs équipes, de mettre en avant leurs défis et tendances d'innovation pour emporter leurs collaborateurs dans la transformation de l'entreprise et enfin de transformer leurs outils de communication en interne en véritables outils de sensibilisation à l'innovation.",
+    "firm": "Silex ID",
+    "knowledges": [
+      {
+        "title": "Innovation",
+        "icon": "https://i.imgur.com/SONlZ8x.png"
+      },
+      {
+        "title": "Storytelling",
+        "icon": "https://i.imgur.com/HQg7Ivr.png"
+      },
+      {
+        "title": "Design",
+        "icon": "https://i.imgur.com/FXffle5.png"
+      },
+      {
+        "title": "Conseil éditorial",
+        "icon": "https://i.imgur.com/wctBkiP.png"
+      }
+    ]
+  },
+  {
+    "field": "Innovation / Gestion de projets / Animation",
+    "name": "Ateliers de sensibilisation à l'innovation",
+    "image": "https://i.imgur.com/YyvIzkH.png",
+    "purpose": "Permettre aux entreprises d'acculturer leurs équipes, clients et partenaires à l'innovation",
+    "description": "Les ateliers de sensibilisation à l'innovation permettent d'acculturer ses équipes, les clients et partenaires sur diverses facettes de l'innovation et du digital. L'objectif étant de permettre aux participants d'apprendre en faisant. Chaque atelier couvre une thématique liée à l'innovation : biomimétisme, cybersécurité, poétique & imaginaire, corporate hacker, science-fiction, storytelling, robotique, gamification et test & learn.",
+    "firm": "Silex ID",
+    "knowledges": [
+      {
+        "title": "Innovation",
+        "icon": "https://i.imgur.com/SONlZ8x.png"
+      },
+      {
+        "title": "Storytelling",
+        "icon": "https://i.imgur.com/HQg7Ivr.png"
+      },
+      {
+        "title": "Evénementiel",
+        "icon": "https://i.imgur.com/DMmxmq1.png"
+      }
+    ]
+  },
+  {
+    "field": "Innovation / Gestion de projets / Animation",
+    "name": "Newsletter Event Reporter",
+    "image": "https://i.imgur.com/YyvIzkH.png",
+    "purpose": "Permettre aux entreprises d'acculturer leurs équipes, clients et partenaires à l'innovation",
+    "description": "Les ateliers de sensibilisation à l'innovation permettent d'acculturer ses équipes, les clients et partenaires sur diverses facettes de l'innovation et du digital. L'objectif étant de permettre aux participants d'apprendre en faisant. Chaque atelier couvre une thématique liée à l'innovation : biomimétisme, cybersécurité, poétique & imaginaire, corporate hacker, science-fiction, storytelling, robotique, gamification et test & learn.",
+    "firm": "Silex ID",
+    "knowledges": [
+      {
+        "title": "Innovation",
+        "icon": "https://i.imgur.com/SONlZ8x.png"
+      },
+      {
+        "title": "Storytelling",
+        "icon": "https://i.imgur.com/HQg7Ivr.png"
+      },
+      {
+        "title": "Evénementiel",
+        "icon": "https://i.imgur.com/DMmxmq1.png"
+      }
+    ]
+  },
+  {
+    "field": "Innovation / Gestion de projets / Animation",
+    "name": "Magazine d'entreprise",
+    "image": "https://i.imgur.com/YyvIzkH.png",
+    "purpose": "Permettre aux entreprises d'acculturer leurs équipes, clients et partenaires à l'innovation",
+    "description": "Les ateliers de sensibilisation à l'innovation permettent d'acculturer ses équipes, les clients et partenaires sur diverses facettes de l'innovation et du digital. L'objectif étant de permettre aux participants d'apprendre en faisant. Chaque atelier couvre une thématique liée à l'innovation : biomimétisme, cybersécurité, poétique & imaginaire, corporate hacker, science-fiction, storytelling, robotique, gamification et test & learn.",
+    "firm": "Silex ID",
+    "knowledges": [
+      {
+        "title": "Innovation",
+        "icon": "https://i.imgur.com/SONlZ8x.png"
+      },
+      {
+        "title": "Storytelling",
+        "icon": "https://i.imgur.com/HQg7Ivr.png"
+      },
+      {
+        "title": "Evénementiel",
+        "icon": "https://i.imgur.com/DMmxmq1.png"
+      }
+    ]
+  },
+  {
+    "field": "Innovation / Gestion de projets / Animation",
+    "name": "Communautés d'acteurs de la mobilité",
+    "image": "https://i.imgur.com/YyvIzkH.png",
+    "purpose": "Permettre aux entreprises d'acculturer leurs équipes, clients et partenaires à l'innovation",
+    "description": "Les ateliers de sensibilisation à l'innovation permettent d'acculturer ses équipes, les clients et partenaires sur diverses facettes de l'innovation et du digital. L'objectif étant de permettre aux participants d'apprendre en faisant. Chaque atelier couvre une thématique liée à l'innovation : biomimétisme, cybersécurité, poétique & imaginaire, corporate hacker, science-fiction, storytelling, robotique, gamification et test & learn.",
+    "firm": "La Fabrique des Mobilités",
+    "knowledges": [
+      {
+        "title": "Innovation",
+        "icon": "https://i.imgur.com/SONlZ8x.png"
+      },
+      {
+        "title": "Storytelling",
+        "icon": "https://i.imgur.com/HQg7Ivr.png"
+      },
+      {
+        "title": "Evénementiel",
+        "icon": "https://i.imgur.com/DMmxmq1.png"
+      }
+    ]
+  },
+  {
+    "field": "Innovation / Gestion de projets / Animation",
+    "name": "Communs de mobilité",
+    "image": "https://i.imgur.com/YyvIzkH.png",
+    "purpose": "Permettre aux entreprises d'acculturer leurs équipes, clients et partenaires à l'innovation",
+    "description": "Les ateliers de sensibilisation à l'innovation permettent d'acculturer ses équipes, les clients et partenaires sur diverses facettes de l'innovation et du digital. L'objectif étant de permettre aux participants d'apprendre en faisant. Chaque atelier couvre une thématique liée à l'innovation : biomimétisme, cybersécurité, poétique & imaginaire, corporate hacker, science-fiction, storytelling, robotique, gamification et test & learn.",
+    "firm": "La Fabrique des Mobilités",
+    "knowledges": [
+      {
+        "title": "Innovation",
+        "icon": "https://i.imgur.com/SONlZ8x.png"
+      },
+      {
+        "title": "Storytelling",
+        "icon": "https://i.imgur.com/HQg7Ivr.png"
+      },
+      {
+        "title": "Evénementiel",
+        "icon": "https://i.imgur.com/DMmxmq1.png"
       }
     ]
   }
