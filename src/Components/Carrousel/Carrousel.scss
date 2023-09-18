@@ -33,7 +33,7 @@
     width: 100%;
     position: relative;
     .Xperience {
-      transition: all 200ms ease-in-out;
+      transition: all 200ms;
       transform: scale(0.92);
       opacity: 0;
       position: absolute;
@@ -41,7 +41,7 @@
       &__active {
         transform: scale(1);
         opacity: 1;
-        transition: all 400ms ease-in-out;
+        transition: all 400ms ease-in;
       }
     }
     @media only screen and (max-width: 768px) {

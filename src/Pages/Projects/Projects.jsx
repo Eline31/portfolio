@@ -3,16 +3,6 @@ import Project from "../../Components/Project-Card/Project-Card"
 import projects from "../../Data/projects.json"
 
 export default function Projects() {
-  // const icons = knowledges?.map((knowledge, index) => {
-  //   return (
-  //     <img
-  //       src={knowledge.icon}
-  //       alt="icône"
-  //       key={`${index}-${knowledge.title}`}
-  //     />
-  //   )
-  // })
-
   return (
     <div className="page-content">
       <h1>Mes projets</h1>

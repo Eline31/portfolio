@@ -2,18 +2,13 @@
 
 .card-container {
   background-color: $secondary-color;
-  padding: 0px 0px 10px 0px;
-  // display: grid;
-  // grid-template-rows: 120px auto;
   .title {
     display: flex;
     justify-content: space-between;
     min-height: 120px;
-    // max-height: 130px;
     align-items: center;
     border-bottom: 3px solid white;
     padding: 0px 20px 10px 20px;
-    // flex-wrap: wrap;
     &__main {
       max-width: 70%;
       h2 {
@@ -44,7 +39,6 @@
       &__dates {
         font-size: 1.2rem;
         color: grey;
-        // margin: 17px 0px 0px 0px;
       }
       &__place {
         font-size: 1.2rem;
@@ -89,7 +83,7 @@
 
   .content {
     width: 100%;
-    padding: 0px 20px;
+    padding: 0px 20px 10px 20px;
     height: 100%;
     h5 {
       font-size: 0.85rem;
