@@ -7,7 +7,6 @@
   grid-auto-rows: min-content;
   grid-gap: 10px;
   min-width: 70%;
-  // max-width: 100%;
   position: relative;
   h2 {
     grid-column: span 3;
@@ -34,7 +33,7 @@
     width: 100%;
     position: relative;
     .Xperience {
-      transition: all 600ms ease-in-out;
+      transition: all 200ms ease-in-out;
       transform: scale(0.92);
       opacity: 0;
       position: absolute;
@@ -42,7 +41,7 @@
       &__active {
         transform: scale(1);
         opacity: 1;
-        transition: all 300ms ease-in-out;
+        transition: all 400ms ease-in-out;
       }
     }
     @media only screen and (max-width: 768px) {

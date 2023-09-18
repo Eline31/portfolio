@@ -226,8 +226,16 @@
     "firm": "La Fabrique des Mobilités",
     "knowledges": [
       {
-        "title": "Design",
-        "icon": "https://i.imgur.com/FXffle5.png"
+        "title": "Prise de paroles publique",
+        "icon": "https://i.imgur.com/ijGzFPc.png"
+      },
+      {
+        "title": "Communauté",
+        "icon": "https://i.imgur.com/vpJadg2.png"
+      },
+      {
+        "title": "Open Source",
+        "icon": "https://i.imgur.com/CGr3RqS.png"
       }
     ]
   },
