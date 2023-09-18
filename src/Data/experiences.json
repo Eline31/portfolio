@@ -80,10 +80,66 @@
     ]
   },
   {
+    "dates": "2013-2016",
+    "title": "Emploi étudiant - Conseillère de vente",
+    "firm": "Minelli",
+    "sector": "Secteur de la vente",
+    "place": "Rennes"
+  },
+  {
+    "dates": "2012-2013",
+    "title": "Emploi étudiant - Vendeuse en horlogerie",
+    "firm": "Espace-Temps",
+    "sector": "Secteur de la vente",
+    "place": "Rennes"
+  },
+  {
+    "dates": "2012",
+    "title": "Vendeuse en boulangerie",
+    "firm": "Augustin",
+    "sector": "Secteur de la restauration",
+    "place": "Rennes"
+  },
+  {
+    "dates": "2012",
+    "title": "Barmaid",
+    "firm": "Café Clim'",
+    "sector": "Secteur de la restauration",
+    "place": "Rennes"
+  },
+  {
+    "dates": "2011",
+    "title": "Barmaid",
+    "firm": "All-Bar-One Embankment",
+    "sector": "Secteur de la restauration",
+    "place": "Londres"
+  },
+  {
+    "dates": "2011",
+    "title": "Barmaid",
+    "firm": "Punch&Judy",
+    "sector": "Secteur de la restauration",
+    "place": "Londres - Covent Garden"
+  },
+  {
+    "dates": "2011",
+    "title": "Vendeuse",
+    "firm": "Undiz",
+    "sector": "Secteur de la vente",
+    "place": "Cesson-Sévigné"
+  },
+  {
     "dates": "2010",
     "title": "Emploi saisonnier",
     "firm": "Centre Départemental d'Action Sociale des Champs Manceaux",
     "sector": "Secteur de l'économie sociale et solidaire",
     "place": "Rennes"
+  },
+  {
+    "dates": "2010-2013",
+    "title": "Marché hebdomadaire (dimanche matin)",
+    "firm": "Marché de Thorigné-Fouillard",
+    "sector": "Secteur de l'alimentation",
+    "place": "Thorigné-Fouillard"
   }
 ]
