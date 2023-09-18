@@ -37,14 +37,15 @@
       height: 100%;
       min-width: 19%;
       &__dates {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         color: grey;
       }
       &__place {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         text-transform: uppercase;
         color: grey;
         margin: 0px;
+        text-align: end;
       }
     }
     @media only screen and (max-width: 768px) {
