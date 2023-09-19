@@ -2,8 +2,8 @@
 
 .homepage-wrapper {
   grid-column: span 4;
-  display: grid;
-  grid-template-columns: repeat(2, auto);
+  display: flex;
+  flex-direction: row;
   align-items: center;
   margin: 0px 50px;
   justify-content: space-around;
