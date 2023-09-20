@@ -282,6 +282,10 @@
         "icon": "https://i.imgur.com/HQg7Ivr.png"
       },
       {
+        "title": "Design",
+        "icon": "https://i.imgur.com/FXffle5.png"
+      },
+      {
         "title": "Evénementiel",
         "icon": "https://i.imgur.com/DMmxmq1.png"
       }
@@ -289,7 +293,7 @@
   },
   {
     "field": "Innovation / Gestion de projets",
-    "name": "Newsletter Event Reporter",
+    "name": "Newsletter de veille sur l'innovation",
     "image": "https://i.imgur.com/ur8Gmk9.png",
     "purpose": "Faire le tour du monde des événements innovation et les partager à travers une newsletter de veille hebdomadaire",
     "description": "Event Reporter était une newsletter de veille sur l'innovation. Cette newsletter hebdomadaire reposait sur une communauté de reporters envoyés dans les plus grands événements Innovation du monde (SXSW, C2 Montréal, Web2Day, Hello Tomorrow, Change Now, CES, Africarena, Mobile World Congress, Web Summit, GMIC Beijing, etc.) pour rapporter les dernières innovations.",
@@ -332,33 +336,11 @@
     ]
   },
   {
-    "field": "Innovation / Gestion de projets / Animation",
-    "name": "Ateliers City Maker pour le NUMA",
-    "image": "https://i.imgur.com/YyvIzkH.png",
-    "purpose": "Permettre aux entreprises d'acculturer leurs équipes, clients et partenaires à l'innovation",
-    "description": "Les ateliers de sensibilisation à l'innovation permettent d'acculturer ses équipes, les clients et partenaires sur diverses facettes de l'innovation et du digital. L'objectif étant de permettre aux participants d'apprendre en faisant. Chaque atelier couvre une thématique liée à l'innovation : biomimétisme, cybersécurité, poétique & imaginaire, corporate hacker, science-fiction, storytelling, robotique, gamification et test & learn.",
-    "firm": "Silex ID",
-    "knowledges": [
-      {
-        "title": "Innovation",
-        "icon": "https://i.imgur.com/SONlZ8x.png"
-      },
-      {
-        "title": "Storytelling",
-        "icon": "https://i.imgur.com/HQg7Ivr.png"
-      },
-      {
-        "title": "Evénementiel",
-        "icon": "https://i.imgur.com/DMmxmq1.png"
-      }
-    ]
-  },
-  {
-    "field": "Innovation / Gestion de projets / Animation",
-    "name": "??",
-    "image": "https://i.imgur.com/YyvIzkH.png",
-    "purpose": "Permettre aux entreprises d'acculturer leurs équipes, clients et partenaires à l'innovation",
-    "description": "Les ateliers de sensibilisation à l'innovation permettent d'acculturer ses équipes, les clients et partenaires sur diverses facettes de l'innovation et du digital. L'objectif étant de permettre aux participants d'apprendre en faisant. Chaque atelier couvre une thématique liée à l'innovation : biomimétisme, cybersécurité, poétique & imaginaire, corporate hacker, science-fiction, storytelling, robotique, gamification et test & learn.",
+    "field": "Gestion de projets / Animation",
+    "name": "Ateliers de design fiction",
+    "image": "https://i.imgur.com/sPldVZo.png",
+    "purpose": "Permettre aux participant·e·s de se mettre dans la peau de citoyen·ne·s de Paris pour imaginer des solutions pour la ville.",
+    "description": "Ces ateliers de design fiction devaient permettre aux participant·e·s de réfléchir autrement et de créer des solutions innovantes en étant mis dans la peau de persona durant une journée type dans 3 paris différents : Paris d'aujourd'hui, Paris du futur, et Paris stressée avec certaines contraintes imposées.",
     "firm": "Silex ID",
     "knowledges": [
       {
