@@ -307,8 +307,8 @@
   },
   {
     "field": "Innovation / Gestion de projets / Storytelling / Conseil éditorial",
-    "name": "Magazine d'entreprise - Livre blanc",
-    "image": "https://i.imgur.com/jdQm5PY.png",
+    "name": "Magazines d'entreprise - Livre blanc",
+    "image": "https://i.imgur.com/TMxQQ0I.png",
     "purpose": "Permettre aux entreprises de raconter leurs innovations internes",
     "description": "Les magazines d'entreprise étaient co-créés avec l'entreprise elle-même à travers des ateliers de cocréation et de mise en récit. L'objectif de ces magazines était de permettre aux entreprises de mettre en récit leurs initiatives autour de l'innovation, de fédérer leurs équipes et partenaires, de mettre en avant leurs défis et tendances d'innovation pour emporter leurs collaborateurs dans la transformation de l'entreprise et enfin de transformer leurs outils de communication en interne en véritables outils de sensibilisation à l'innovation.",
     "firm": "Silex ID",
@@ -328,6 +328,50 @@
       {
         "title": "Conseil éditorial",
         "icon": "https://i.imgur.com/wctBkiP.png"
+      }
+    ]
+  },
+  {
+    "field": "Innovation / Gestion de projets / Animation",
+    "name": "Ateliers City Maker pour le NUMA",
+    "image": "https://i.imgur.com/YyvIzkH.png",
+    "purpose": "Permettre aux entreprises d'acculturer leurs équipes, clients et partenaires à l'innovation",
+    "description": "Les ateliers de sensibilisation à l'innovation permettent d'acculturer ses équipes, les clients et partenaires sur diverses facettes de l'innovation et du digital. L'objectif étant de permettre aux participants d'apprendre en faisant. Chaque atelier couvre une thématique liée à l'innovation : biomimétisme, cybersécurité, poétique & imaginaire, corporate hacker, science-fiction, storytelling, robotique, gamification et test & learn.",
+    "firm": "Silex ID",
+    "knowledges": [
+      {
+        "title": "Innovation",
+        "icon": "https://i.imgur.com/SONlZ8x.png"
+      },
+      {
+        "title": "Storytelling",
+        "icon": "https://i.imgur.com/HQg7Ivr.png"
+      },
+      {
+        "title": "Evénementiel",
+        "icon": "https://i.imgur.com/DMmxmq1.png"
+      }
+    ]
+  },
+  {
+    "field": "Innovation / Gestion de projets / Animation",
+    "name": "??",
+    "image": "https://i.imgur.com/YyvIzkH.png",
+    "purpose": "Permettre aux entreprises d'acculturer leurs équipes, clients et partenaires à l'innovation",
+    "description": "Les ateliers de sensibilisation à l'innovation permettent d'acculturer ses équipes, les clients et partenaires sur diverses facettes de l'innovation et du digital. L'objectif étant de permettre aux participants d'apprendre en faisant. Chaque atelier couvre une thématique liée à l'innovation : biomimétisme, cybersécurité, poétique & imaginaire, corporate hacker, science-fiction, storytelling, robotique, gamification et test & learn.",
+    "firm": "Silex ID",
+    "knowledges": [
+      {
+        "title": "Innovation",
+        "icon": "https://i.imgur.com/SONlZ8x.png"
+      },
+      {
+        "title": "Storytelling",
+        "icon": "https://i.imgur.com/HQg7Ivr.png"
+      },
+      {
+        "title": "Evénementiel",
+        "icon": "https://i.imgur.com/DMmxmq1.png"
       }
     ]
   }
