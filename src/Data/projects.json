@@ -57,7 +57,7 @@
     "knowledges": [
       {
         "title": "GTMetrix",
-        "icon": "https://i.imgur.com/ZDQPTzR.jpg"
+        "icon": "https://i.imgur.com/snObFXl.png"
       },
       {
         "title": "Lighthouse",
@@ -104,12 +104,12 @@
         "icon": "https://i.imgur.com/TmI17nV.png"
       },
       {
-        "title": "NodeJS",
-        "icon": "https://i.imgur.com/LT169KV.png"
+        "title": "MongoDB",
+        "icon": "https://i.imgur.com/EyhjjH0.png"
       },
       {
-        "title": "MongoDB",
-        "icon": "https://i.imgur.com/o1nbX3K.png"
+        "title": "NodeJS",
+        "icon": "https://i.imgur.com/LT169KV.png"
       },
       {
         "title": "Express",
@@ -117,7 +117,7 @@
       },
       {
         "title": "Open Web Application Security Project (OWASP)",
-        "icon": "https://i.imgur.com/LShYto3.png"
+        "icon": "https://i.imgur.com/ZsQbPao.png"
       }
     ]
   },
@@ -135,7 +135,7 @@
       },
       {
         "title": "MongoDB",
-        "icon": "https://i.imgur.com/o1nbX3K.png"
+        "icon": "https://i.imgur.com/EyhjjH0.png"
       },
       {
         "title": "Express",
@@ -143,7 +143,7 @@
       },
       {
         "title": "Open Web Application Security Project (OWASP)",
-        "icon": "https://i.imgur.com/LShYto3.png"
+        "icon": "https://i.imgur.com/ZsQbPao.png"
       }
     ]
   },
