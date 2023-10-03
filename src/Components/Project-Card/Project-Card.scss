@@ -188,10 +188,10 @@
         height: 300px;
         margin-bottom: 20px;
         border-radius: 10px;
+        overflow: auto;
         .project-pic {
           border-radius: 10px;
           object-fit: cover;
-          max-height: 100%;
           width: 100%;
         }
       }

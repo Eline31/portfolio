@@ -150,7 +150,7 @@
   {
     "field": "Animation de communautés / Mobilités / Open Source",
     "name": "Communautés d'acteurs de la mobilité",
-    "image": "https://i.imgur.com/LGfgLLC.png",
+    "image": "https://i.imgur.com/ONPFlR0.png",
     "purpose": "Développer et animer des communautés d'acteurs de la mobilité pour travailler ensemble vers une mobilité durable",
     "description": "Les communautés d'intérêt sont composées d'acteurs de la mobilité (privés, publics). Elles ne sont pas obligatoirement fédérées autour d'un commun, elles peuvent également partager des objectifs communs, des centres d'intérêt communs ou bien un métier commun. L'animation de ces communautés consistait d'abord en l'identification des problématiques communes, puis des ressources dont chacun des membres disposait et en l'identification des ressources / communs dont chacun pourrait bénéficier afin de les créer, ensemble. J'animais notamment une communauté autour de l'Open Hardware (Michelin, Faurecia, Renault, INSA, Université de Rennes 1...), une communauté nationale des conseiller·ère·s en mobilité (Ademe, conseiller·ère·s en mobilité, associations de la mobilité, territoires), une communauté des acteurs de la micromobilité (Decathlon -Oxelo, Lime, Bird, Dott, territoires, SNCF Gares&Connexions, Fab&Co, le GART, France Mobilités, FPMM...), une communauté des fabricants d'imaginaires de la mobilité et d'autres.",
     "firm": "La Fabrique des Mobilités",
@@ -176,7 +176,7 @@
   {
     "field": "Gestion de projets / Mobilités / Open Source",
     "name": "Communs de mobilité",
-    "image": "https://i.imgur.com/LGfgLLC.png",
+    "image": "https://i.imgur.com/ONPFlR0.png",
     "purpose": "Les communs de mobilité sont des ressources ouvertes créées, gérées et mises en partage par une communauté.",
     "description": "La Fabrique des Mobilités favorise la création de communs de mobilité en réunissant les acteurs volontaires de la mobilité souhaitant œuvrer vers une mobilité durable. Lors de mes années à la Fabrique des Mobilités, j'ai eu l'occasion de diriger et participer à la création de nombreux communs de mobilité tels que Partageons plus de vélos - solution de partage de vélos recyclés pour les territoires de densité intermédiaire à très peu denses, le challenge national de la seconde vie des trottinettes électriques - challenge permettant à des équipes (fablabs, tiers-lieux, ateliers, universités, écoles) d'expérimenter sur des trottinettes électriques pour inventer à ces engins et leurs composants de nouvelles vies après leurs usages en flottes en libre service et ainsi en réduire l'empreinte et en favoriser leur utilisation optimale, le Véhicule Open Source - une base hardware de réflexion permettant d'explorer de nouveaux modèles de conception et d'élaboration du véhicule et son environnement, les imaginaires de la mobilité - des ateliers de création d'histoires sur les futurs des mobilités, et bien d'autres. Chaque commun créé était entièrement documenté pour être reproductible.",
     "firm": "La Fabrique des Mobilités",
@@ -206,7 +206,7 @@
   {
     "field": "Gestion de projets / Design",
     "name": "Charte graphique et identité graphique",
-    "image": "https://i.imgur.com/LGfgLLC.png",
+    "image": "https://i.imgur.com/ONPFlR0.png",
     "purpose": "Refonte de la charte graphique et de l'identité visuelle de l'association la Fabrique des Mobilités",
     "description": "La refonte de la totalité de l'identité visuelle et de la charte graphique de l'association la Fabrique des Mobilités devait intégrer la modernisation et l'expansion de l'association.",
     "firm": "La Fabrique des Mobilités",
@@ -220,7 +220,7 @@
   {
     "field": "Gestion de projets / Outils numériques",
     "name": "Ateliers et formations aux outils numériques Open Source",
-    "image": "https://i.imgur.com/LGfgLLC.png",
+    "image": "https://i.imgur.com/ONPFlR0.png",
     "purpose": "Former les collaborateur·rice·s, adhérent·e·s, partenaires aux outils Open Source utilisés par la Fabrique des Mobilités",
     "description": "Des ateliers et formations de prise en main des outils étaient dispensés afin de permettre aux collaborateur·rice·s, adhérent·e·s et partenaires de comprendre le fonctionnement de la Fabrique et la fonction de chacun des outils et de leur permettre ainsi de participer aux travaux de l'association et de s'y impliquer. La Fabrique des Mobilités s'appuie sur un wiki, un forum, rocket chat, CodiMD et NextCloud, tous Open Source.",
     "firm": "La Fabrique des Mobilités",
