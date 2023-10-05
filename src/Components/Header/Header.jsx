@@ -1,5 +1,5 @@
 import "./Header.scss"
-import { StyledLink } from "../../Utils/style/Atoms"
+import { StyledLink } from "../../Utils/Style/Atoms"
 import { useLocation } from "react-router-dom"
 import { useState } from "react"
 

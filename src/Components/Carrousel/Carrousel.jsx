@@ -3,7 +3,7 @@ import experiences from "../../Data/experiences.json"
 import chevronleft from "../../Assets/chevronleft.png"
 import chevronright from "../../Assets/chevronright.png"
 import { useState } from "react"
-import { Loader } from "../../Utils/style/Atoms.jsx"
+import { Loader } from "../../Utils/Style/Atoms.jsx"
 import "./Carrousel.scss"
 
 export default function Carrousel() {
