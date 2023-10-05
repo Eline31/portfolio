@@ -2,7 +2,6 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "main": "src/index.jsx",
   "homepage": "https://eline31.github.io/portfolio/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
@@ -19,7 +18,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "CI=true && react-scripts build",
+    "build": "CI= react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
