@@ -1,7 +1,7 @@
 import "./Header.scss"
-import { StyledLink } from "../../Utils/Style/Atoms.jsx"
 import { useLocation } from "react-router-dom"
 import { useState } from "react"
+import { StyledLink } from "../../Utils/Style/Atoms"
 
 export default function Header() {
   const location = useLocation()
