@@ -1,4 +1,3 @@
-// import experiences from "../../Data/experiences.json"
 import "./Experience-Card.scss"
 
 export default function Experience({ experience }) {
