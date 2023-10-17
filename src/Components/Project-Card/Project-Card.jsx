@@ -17,7 +17,7 @@ export default function Project({
     return (
       <img
         src={knowledge.icon}
-        alt="icône"
+        alt={knowledge.title}
         key={`${index}-${knowledge.title}`}
       />
     )
@@ -28,8 +28,8 @@ export default function Project({
       className={
         isOpen ? "project-wrapper project-wrapper__active" : "project-wrapper"
       }
-      isOpen={isOpen}
       onClick={() => setIsOpen(!isOpen)}
+      // onBlur={() => setIsOpen(!isOpen)}
     >
       <div className="project-card">
         <div className="project-pic-container">
@@ -50,6 +50,7 @@ export default function Project({
           alt="Fermer"
           className="close"
           onClick={() => setIsOpen(!isOpen)}
+          // onBlur={() => setIsOpen(!isOpen)}
         />
         <div className="project-pic-container">
           <img src={picture} alt="Projet" className="project-pic" />
