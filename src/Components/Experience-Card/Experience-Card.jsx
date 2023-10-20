@@ -1,12 +1,12 @@
 import "./Experience-Card.scss"
 
-export default function Experience({ experience }) {
+export default function Experience({ experience, index }) {
   const activitiesList = experience.activities
 
-  const activity = activitiesList?.map((activity) => {
+  const activity = activitiesList?.map((activity, index) => {
     return (
       <>
-        <h5>{activity.title}</h5>
+        <h5 key={activity.title}>{activity.title}</h5>
         <span>
           {activity.description?.map((description, index) => {
             return (
@@ -16,7 +16,9 @@ export default function Experience({ experience }) {
             )
           })}
         </span>
-        <p className="content__examples">{activity.examples}</p>
+        <p className="content__examples" key={`${activity.examples}-${index}`}>
+          {activity.examples}
+        </p>
       </>
     )
   })
@@ -35,7 +37,7 @@ export default function Experience({ experience }) {
         </div>
       </div>
       {activity ? (
-        <div className="content" key={activity}>
+        <div className="content" key={`key-${activity.title}`}>
           {activity}
         </div>
       ) : null}

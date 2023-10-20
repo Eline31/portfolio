@@ -1,23 +1,31 @@
 import Experience from "../Experience-Card/Experience-Card.jsx"
-import experiences from "../../Data/experiences.json"
+// import experiences from "../../Data/experiences.json"
 import chevronleft from "../../Assets/chevronleft.png"
 import chevronright from "../../Assets/chevronright.png"
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import { Loader } from "../../Utils/Style/Atoms.jsx"
 import "./Carrousel.scss"
 
-export default function Carrousel() {
+export default function Carrousel({ data }) {
   //Identification de la slide actuelle
   const [current, setCurrent] = useState(0)
   //useState du loader
   const [isLoading, setIsLoading] = useState(false)
+  const [dataTab, setDataTab] = useState([])
+
+  //Remplissage du tableau d'images grâce à la props "pictures"
+  useEffect(() => {
+    setIsLoading(true)
+    data && setDataTab(data)
+    setIsLoading(false)
+  }, [])
 
   //Fonction de gestion du roulement du carrousel vers la droite
   const nextSlide = () => {
     setIsLoading(true)
-    if (current < experiences.length - 1) {
+    if (current < dataTab.length - 1) {
       setCurrent(current + 1)
-    } else if (current === experiences.length - 1) {
+    } else if (current === dataTab.length - 1) {
       setCurrent(0)
     }
     setIsLoading(false)
@@ -29,7 +37,7 @@ export default function Carrousel() {
     if (current > 0) {
       setCurrent(current - 1)
     } else if (current === 0) {
-      setCurrent(experiences.length - 1)
+      setCurrent(dataTab.length - 1)
     }
     setIsLoading(false)
   }
@@ -42,7 +50,6 @@ export default function Carrousel() {
         </div>
       ) : (
         <div className="Carrousel-wrapper">
-          <h2>Expériences</h2>
           <div
             className="buttons"
             alt="Expérience précédente"
@@ -55,7 +62,7 @@ export default function Carrousel() {
             />
           </div>
           <div className="Xperience-wrapper">
-            {experiences.map((experience, index) => {
+            {dataTab.map((experience, index) => {
               return (
                 <div
                   className={

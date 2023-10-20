@@ -11,8 +11,12 @@ export default function Diploma() {
             <p className="datesplace" key={`${diploma.dates}-${index}`}>
               {diploma.dates} • {diploma.place}
             </p>
-            <h3 className="title">{diploma.title}</h3>
-            <p className="description">{diploma.description}</p>
+            <h3 className="title" key={`${diploma.title}-${index}`}>
+              {diploma.title}
+            </h3>
+            <p className="description" key={`Description-${index}`}>
+              {diploma.description}
+            </p>
           </div>
         )
       })}

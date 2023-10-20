@@ -18,6 +18,15 @@
       display: flex;
       flex-direction: row;
       flex-wrap: nowrap;
+      .work {
+        display: flex;
+        flex-direction: column;
+        h2 {
+          grid-column: span 3;
+          color: $primary-color;
+        }
+      }
+
       @media only screen and (max-width: 900px) {
         flex-wrap: wrap;
       }
