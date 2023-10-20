@@ -8,18 +8,22 @@
     "dates": "2016-2017",
     "place": "Rennes",
     "title": "Master 2 Économie et Gestion des entreprises, Affaires internationales et PME",
-    "description": "Double formation d'analyste familiarisée aux affaires internationales, et de manager dédiée à la gestion et la conduite d'affaires dans les PME-PMI-TPE."
+    "description": "Double formation d'analyste familiarisée aux affaires internationales, et de manager dédiée à la gestion et la conduite d'affaires dans les PME-PMI-TPE.",
+    "competences": "Contrôle de gestion à l'international, fiscalité internationale, gestion des opérations internationales, financements internationaux, pratiques des paiements internationaux, gestion de projet et business plan, gestion internationale de l’entreprise, droit des contrats internationaux et droit économique international."
   },
   {
     "dates": "2015-2016",
     "place": "Rennes",
     "title": "Master 1 Économie et Gestion des entreprises, Affaires internationales et PME",
-    "description": "Double formation économiste internationaliste et de gestionnaire spécialiste des PME/PMI."
+    "description": "Double formation économiste internationaliste et de gestionnaire spécialiste des PME/PMI.",
+    "competences": "Contrôle de gestion, diagnostic financier, droit fiscal, gestion de la trésorerie, GRH, management des PME, marketing, techniques fiscales, logistique, droit des sociétés, comptabilité..."
   },
   {
     "dates": "2012-2015",
     "place": "Rennes",
-    "title": "Licence Économie - gestion, Parcours Affaires Internationales"
+    "title": "Licence Économie - gestion, Parcours Affaires Internationales",
+    "description": "Solides connaissances en économie et gestion ainsi qu'en droit et techniques quantitatives.",
+    "competences": "comprendre et analyser l'actualité économique et sociale dans ses dimensions locales, nationales et internationales."
   },
   {
     "dates": "2010",

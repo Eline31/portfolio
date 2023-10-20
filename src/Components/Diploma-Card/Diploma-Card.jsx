@@ -17,6 +17,9 @@ export default function Diploma() {
             <p className="description" key={`Description-${index}`}>
               {diploma.description}
             </p>
+            <p className="competences" key={`Compétences-${index}`}>
+              {diploma.competences}
+            </p>
           </div>
         )
       })}

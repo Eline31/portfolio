@@ -17,12 +17,17 @@
     }
     .title {
       margin: 0px;
-      font-size: 0.9rem;
+      font-size: 1rem;
     }
     .description {
-      font-size: 0.9rem;
+      font-size: 1rem;
       margin: 0px;
+    }
+    .competences {
+      font-size: 0.9rem;
+      margin: 5px 0px 0px 0px;
       color: grey;
+      font-style: italic;
     }
   }
 }

@@ -21,6 +21,7 @@
       .work {
         display: flex;
         flex-direction: column;
+        min-width: 70%;
         h2 {
           grid-column: span 3;
           color: $primary-color;
