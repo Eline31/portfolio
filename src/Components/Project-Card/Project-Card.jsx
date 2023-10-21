@@ -9,6 +9,7 @@ export default function Project({
   purpose,
   description,
   firm,
+  link,
   knowledges,
 }) {
   const [isOpen, setIsOpen] = useState(false)
@@ -57,9 +58,23 @@ export default function Project({
         </div>
         <div className="project-content">
           <div className="main-info">
-            <h2>{name}</h2>
-            <h3>{field}</h3>
-            <p className="structure">{firm}</p>
+            <span className="titles">
+              <h2>{name}</h2>
+              <h3>{field}</h3>
+              <p className="structure">{firm}</p>
+            </span>
+            <span className="link">
+              {{ link } ? (
+                <a href={link}>
+                  <img
+                    src="https://i.imgur.com/965xgtZ.png"
+                    alt="lien vers le projet"
+                  />
+                </a>
+              ) : (
+                ""
+              )}
+            </span>
           </div>
           <div className="details">
             <p className="description">{description}</p>

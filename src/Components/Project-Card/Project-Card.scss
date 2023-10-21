@@ -108,15 +108,20 @@
       justify-content: space-between;
       position: relative;
       padding: 10px;
+      width: 100%;
       .main-info {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         flex-wrap: wrap;
-        span {
+        justify-content: space-between;
+        .titles {
           display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
           h2 {
             margin: 0px 0px 10px 0px;
             font-size: 1.2rem;
+            display: inline-block;
             &::after {
               content: "  •";
             }
@@ -127,12 +132,22 @@
             font-weight: 400;
             font-style: italic;
             margin: 0px 0px 0px 5px;
+            display: inline-block;
+          }
+          p {
+            text-transform: uppercase;
+            margin: 0px;
+            font-size: 0.9rem;
           }
         }
-        p {
-          text-transform: uppercase;
-          margin: 0px;
-          font-size: 0.9rem;
+        .link {
+          a {
+            img {
+              object-fit: contain;
+              height: 20px;
+              width: 20px;
+            }
+          }
         }
       }
       .details {
@@ -177,6 +192,7 @@
       transform: scale(1);
       transition: all 500ms ease-in-out;
       filter: drop-shadow(2px 3px 4px rgb(155, 155, 155));
+      cursor: default;
       .close {
         height: 20px;
         width: 20px;
@@ -188,8 +204,8 @@
       }
       .project-pic-container {
         width: 100%;
-        height: 300px;
-        margin-bottom: 20px;
+        max-height: 300px;
+        margin-bottom: 10px;
         border-radius: 10px;
         overflow: auto;
         .project-pic {
@@ -204,26 +220,50 @@
         justify-content: space-between;
         position: relative;
         padding: 10px;
+        width: 100%;
         .main-info {
           display: flex;
-          flex-direction: column;
+          flex-direction: row;
           flex-wrap: wrap;
-          display: flex;
-          h2 {
-            margin: 0px 0px 5px 0px;
-            font-size: 1.2rem;
+          justify-content: space-between;
+          margin: 0px 0px 10px 0px;
+          .titles {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            h2 {
+              margin: 0px 0px 10px 0px;
+              font-size: 1.2rem;
+              display: inline-block;
+              &::after {
+                content: "  •";
+              }
+            }
+            h3 {
+              color: grey;
+              font-size: 1.1rem;
+              font-weight: 400;
+              font-style: italic;
+              margin: 0px 0px 0px 5px;
+              display: inline-block;
+            }
+            p {
+              text-transform: uppercase;
+              margin: 0px;
+              font-size: 0.9rem;
+              display: block;
+              width: 100%;
+            }
           }
-          h3 {
-            color: grey;
-            font-size: 1.1rem;
-            font-weight: 400;
-            font-style: italic;
-            margin: 0px 0px 10px 0px;
-          }
-          p {
-            text-transform: uppercase;
-            margin: 0px;
-            font-size: 0.9rem;
+          .link {
+            a {
+              cursor: pointer;
+              img {
+                object-fit: contain;
+                height: 20px;
+                width: 20px;
+              }
+            }
           }
         }
         .details {
@@ -244,6 +284,41 @@
               margin: 0px 15px;
               height: 30px;
               min-width: 30px;
+            }
+          }
+        }
+      }
+      @media only screen and (max-width: 768px) {
+        .project-content {
+          .main-info {
+            .titles {
+              flex-direction: column;
+              h2 {
+                margin: 0px 0px 5px 0px;
+                font-size: 1rem;
+                &::after {
+                  content: none;
+                }
+              }
+              h3 {
+                margin: 0px 0px 10px 0px;
+                font-size: 1rem;
+              }
+              p {
+                font-size: 0.9rem;
+              }
+            }
+            .link {
+              margin: 5px 0px 0px 0px;
+            }
+          }
+          .details {
+            .knowledges {
+              img {
+                margin: 0px 10px;
+                height: 25px;
+                min-width: 25px;
+              }
             }
           }
         }
