@@ -6,6 +6,7 @@
     "purpose": "Intégrer une maquette en HTML5 et CSS3",
     "description": "L'objectif était de créer un site internet permettant aux utilisateurs de trouver des hébergements et des activités dans la ville de leur choix et ce en HTML et CSS à partir d'une maquette Figma.",
     "firm": "OpenClassrooms",
+    "lien": "",
     "knowledges": [
       {
         "title": "HTML",
@@ -32,6 +33,7 @@
     "purpose": "Développer un site internet responsive avec Sass à partir d'une maquette desktop",
     "description": "L'objectif du projet était de développer un site web dynamique et mobile-first puis desktop à partir d'une maquette Figma. Ce site comprend également des animations CSS modernes et a été développé avec l'utilisation de Sass et d'un système de gestion de versions pour le suivi et l'hébergement du projet (GitHub et Git Bash).",
     "firm": "OpenClassrooms",
+    "lien": "",
     "knowledges": [
       {
         "title": "Sass",
@@ -54,6 +56,7 @@
     "purpose": "Améliorer le positionnement, l'accessibilité et la vitesse d'un site internet",
     "description": "Ce projet consistait en l'optimisation et la mise en conformité d'un site web préexistant. Il a d'abord fallu analyser l'état actuel de SEO du site fourni afin de préconiser des recommandations d'amélioration, puis implémenter ces améliorations et enfin comparer les résultats de ces améliorations et produire un rapport d'optimisation. Ont été pris en compte le positionnement du site sur les navigateurs, son optimisation technique et son accessibilité.",
     "firm": "OpenClassrooms",
+    "lien": "",
     "knowledges": [
       {
         "title": "GTMetrix",
@@ -72,6 +75,7 @@
     "purpose": "Créer une plateforme de e-commerce avec JavaScript",
     "description": "Ce projet consistait en la création du contenu dynamique du site dont la structure existait déjà par l'intégration des produits grâce à une API et JavaScript et en la mise en place d'un plan de tests d'acceptation. Ce projet m'aurait également permis d'apprendre à valider des données issues de sources externes (ici, de l'API). A également été utilisé l'outil Postman pour tester la communication avec l'API.",
     "firm": "OpenClassrooms",
+    "lien": "",
     "knowledges": [
       {
         "title": "Postman",
@@ -98,6 +102,7 @@
     "purpose": "Construire une API Rest",
     "description": "Ce projet consistait en la construction d'une API pour une application web suivant des spécifications données. Lors de la construction de cette API, il a fallu stocker des données de manière sécurisée, suivre la réglementation (RGPD, OWASP), mettre en oeuvre des opérations CRUD de manière sécurisée. Ce projet m'a permis de me familiariser avec MongoDB, Mongoose, les JSON web tokens et le package Multer.",
     "firm": "OpenClassrooms",
+    "lien": "",
     "knowledges": [
       {
         "title": "API Rest",
@@ -128,6 +133,7 @@
     "purpose": "Créer une application web de location immobilière avec React",
     "description": "Ce projet a consisté en la refonte totale d'un site web pour créer à la place une application web basée sur React côté front-end et JavaScript et NodeJS côté back-end. J'ai développé l'ensemble de l'application à partir des maquettes Figma, les composants React, les routes React Router. Des composants complexes et réutilisables ont été produits lors de ce projet comme un collapse et un carrousel d'images. Ce travail m'a permis de me familiariser avec Create React App, React Router et différentes fonctionnalités de React comme les propTypes, UseState, useEffects, useLocation, useRef.",
     "firm": "OpenClassrooms",
+    "lien": "",
     "knowledges": [
       {
         "title": "React",
@@ -150,10 +156,11 @@
   {
     "field": "Animation de communautés / Mobilités / Open Source",
     "name": "Communautés d'acteurs de la mobilité",
-    "image": "https://i.imgur.com/ONPFlR0.png",
+    "image": "https://i.imgur.com/E78cXK1.jpg",
     "purpose": "Développer et animer des communautés d'acteurs de la mobilité pour travailler ensemble vers une mobilité durable",
     "description": "Les communautés d'intérêt sont composées d'acteurs de la mobilité (privés, publics). Elles ne sont pas obligatoirement fédérées autour d'un commun, elles peuvent également partager des objectifs communs, des centres d'intérêt communs ou bien un métier commun. L'animation de ces communautés consistait d'abord en l'identification des problématiques communes, puis des ressources dont chacun des membres disposait et en l'identification des ressources / communs dont chacun pourrait bénéficier afin de les créer, ensemble. J'animais notamment une communauté autour de l'Open Hardware (Michelin, Faurecia, Renault, INSA, Université de Rennes 1...), une communauté nationale des conseiller·ère·s en mobilité (Ademe, conseiller·ère·s en mobilité, associations de la mobilité, territoires), une communauté des acteurs de la micromobilité (Decathlon -Oxelo, Lime, Bird, Dott, territoires, SNCF Gares&Connexions, Fab&Co, le GART, France Mobilités, FPMM...), une communauté des fabricants d'imaginaires de la mobilité et d'autres.",
     "firm": "La Fabrique des Mobilités",
+    "lien": "https://wiki.lafabriquedesmobilites.fr/wiki/Communaut%C3%A9_du_v%C3%A9hicule_Open_Source",
     "knowledges": [
       {
         "title": "Communauté",
@@ -176,10 +183,11 @@
   {
     "field": "Gestion de projets / Mobilités / Open Source",
     "name": "Communs de mobilité",
-    "image": "https://i.imgur.com/ONPFlR0.png",
+    "image": "https://i.imgur.com/8ojpNrT.png",
     "purpose": "Les communs de mobilité sont des ressources ouvertes créées, gérées et mises en partage par une communauté.",
     "description": "La Fabrique des Mobilités favorise la création de communs de mobilité en réunissant les acteurs volontaires de la mobilité souhaitant œuvrer vers une mobilité durable. Lors de mes années à la Fabrique des Mobilités, j'ai eu l'occasion de diriger et participer à la création de nombreux communs de mobilité tels que Partageons plus de vélos - solution de partage de vélos recyclés pour les territoires de densité intermédiaire à très peu denses, le challenge national de la seconde vie des trottinettes électriques - challenge permettant à des équipes (fablabs, tiers-lieux, ateliers, universités, écoles) d'expérimenter sur des trottinettes électriques pour inventer à ces engins et leurs composants de nouvelles vies après leurs usages en flottes en libre service et ainsi en réduire l'empreinte et en favoriser leur utilisation optimale, le Véhicule Open Source - une base hardware de réflexion permettant d'explorer de nouveaux modèles de conception et d'élaboration du véhicule et son environnement, les imaginaires de la mobilité - des ateliers de création d'histoires sur les futurs des mobilités, et bien d'autres. Chaque commun créé était entièrement documenté pour être reproductible.",
     "firm": "La Fabrique des Mobilités",
+    "lien": "https://wiki.lafabriquedesmobilites.fr/wiki/Challenge_sur_la_seconde_vie_des_trottinettes_%C3%A9lectriques",
     "knowledges": [
       {
         "title": "Commun",
@@ -206,10 +214,11 @@
   {
     "field": "Gestion de projets / Design",
     "name": "Charte graphique et identité graphique",
-    "image": "https://i.imgur.com/ONPFlR0.png",
+    "image": "https://i.imgur.com/pZNYCLf.jpg",
     "purpose": "Refonte de la charte graphique et de l'identité visuelle de l'association la Fabrique des Mobilités",
-    "description": "La refonte de la totalité de l'identité visuelle et de la charte graphique de l'association la Fabrique des Mobilités devait intégrer la modernisation et l'expansion de l'association.",
+    "description": "La refonte de la totalité de l'identité visuelle et de la charte graphique de l'association la Fabrique des Mobilités devait intégrer la modernisation et l'expansion de l'association. Le site a été entièrement refait et les outils adaptés à la nouvelle charte.",
     "firm": "La Fabrique des Mobilités",
+    "lien": "https://lafabriquedesmobilites.fr/",
     "knowledges": [
       {
         "title": "Design",
@@ -220,10 +229,11 @@
   {
     "field": "Gestion de projets / Outils numériques",
     "name": "Ateliers et formations aux outils numériques Open Source",
-    "image": "https://i.imgur.com/ONPFlR0.png",
+    "image": "https://i.imgur.com/cDuxkzF.jpg",
     "purpose": "Former les collaborateur·rice·s, adhérent·e·s, partenaires aux outils Open Source utilisés par la Fabrique des Mobilités",
     "description": "Des ateliers et formations de prise en main des outils étaient dispensés afin de permettre aux collaborateur·rice·s, adhérent·e·s et partenaires de comprendre le fonctionnement de la Fabrique et la fonction de chacun des outils et de leur permettre ainsi de participer aux travaux de l'association et de s'y impliquer. La Fabrique des Mobilités s'appuie sur un wiki, un forum, rocket chat, CodiMD et NextCloud, tous Open Source.",
     "firm": "La Fabrique des Mobilités",
+    "lien": "https://wiki.lafabriquedesmobilites.fr/wiki/Prise_en_main_des_outils_FabMob_-_Cr%C3%A9ation_d%27un_compte_centralis%C3%A9",
     "knowledges": [
       {
         "title": "Prise de paroles publique",
@@ -246,6 +256,7 @@
     "purpose": "Permettre aux entreprises de mettre en récit leurs initiatives, leurs défis autour de l'innovation",
     "description": "Les newspapers étaient co-créés avec des entreprises afin de mettre en récit leurs initiatives autour de l'innovation, de fédérer une communauté ou leurs équipes, de mettre en avant leurs défis et tendances d'innovation pour emporter leurs collaborateurs dans la transformation de l'entreprise et enfin de transformer leurs outils de communication en interne en véritables outils de sensibilisation à l'innovation.",
     "firm": "Silex ID",
+    "lien": "",
     "knowledges": [
       {
         "title": "Innovation",
@@ -272,6 +283,7 @@
     "purpose": "Permettre aux entreprises d'acculturer leurs équipes, clients et partenaires à l'innovation",
     "description": "Les ateliers de sensibilisation à l'innovation permettent d'acculturer ses équipes, les clients et partenaires sur diverses facettes de l'innovation et du digital. L'objectif étant de permettre aux participants d'apprendre en faisant. Chaque atelier couvre une thématique liée à l'innovation : biomimétisme, cybersécurité, poétique & imaginaire, corporate hacker, science-fiction, storytelling, robotique, gamification et test & learn.",
     "firm": "Silex ID",
+    "lien": "",
     "knowledges": [
       {
         "title": "Innovation",
@@ -294,10 +306,11 @@
   {
     "field": "Innovation / Gestion de projets",
     "name": "Newsletter de veille sur l'innovation",
-    "image": "https://i.imgur.com/tvkPpbX.png",
+    "image": "https://i.imgur.com/pPT53AB.jpg",
     "purpose": "Faire le tour du monde des événements innovation et les partager à travers une newsletter de veille hebdomadaire",
     "description": "Event Reporter était une newsletter de veille sur l'innovation. Cette newsletter hebdomadaire reposait sur une communauté de reporters envoyés dans les plus grands événements Innovation du monde (SXSW, C2 Montréal, Web2Day, Hello Tomorrow, Change Now, CES, Africarena, Mobile World Congress, Web Summit, GMIC Beijing, etc.) pour rapporter les dernières innovations.",
     "firm": "Silex ID",
+    "lien": "",
     "knowledges": [
       {
         "title": "Innovation",
@@ -316,6 +329,7 @@
     "purpose": "Permettre aux entreprises de raconter leurs innovations internes",
     "description": "Les magazines d'entreprise étaient co-créés avec l'entreprise elle-même à travers des ateliers de cocréation et de mise en récit. L'objectif de ces magazines était de permettre aux entreprises de mettre en récit leurs initiatives autour de l'innovation, de fédérer leurs équipes et partenaires, de mettre en avant leurs défis et tendances d'innovation pour emporter leurs collaborateurs dans la transformation de l'entreprise et enfin de transformer leurs outils de communication en interne en véritables outils de sensibilisation à l'innovation.",
     "firm": "Silex ID",
+    "lien": "",
     "knowledges": [
       {
         "title": "Innovation",
@@ -342,6 +356,7 @@
     "purpose": "Permettre aux participant·e·s de se mettre dans la peau de citoyen·ne·s de Paris pour imaginer des solutions pour la ville.",
     "description": "Ces ateliers de design fiction devaient permettre aux participant·e·s de réfléchir autrement et de créer des solutions innovantes en étant mis dans la peau de persona durant une journée type dans 3 paris différents : Paris d'aujourd'hui, Paris du futur, et Paris stressée avec certaines contraintes imposées.",
     "firm": "Silex ID",
+    "lien": "",
     "knowledges": [
       {
         "title": "Innovation",
