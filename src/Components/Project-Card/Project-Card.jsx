@@ -1,6 +1,7 @@
 import "./Project-Card.scss"
 import { useState } from "react"
 import close from "../../Assets/close.png"
+import { Link } from "react-router-dom"
 
 export default function Project({
   picture,
@@ -29,8 +30,6 @@ export default function Project({
       className={
         isOpen ? "project-wrapper project-wrapper__active" : "project-wrapper"
       }
-      onClick={() => setIsOpen(!isOpen)}
-      // onBlur={() => setIsOpen(!isOpen)}
     >
       <div className="project-card">
         <div className="project-pic-container">
@@ -40,6 +39,9 @@ export default function Project({
         <h3>{field}</h3>
         <p className="purpose">{purpose}</p>
         <div className="knowledges">{icons}</div>
+        <div className="button" onClick={() => setIsOpen(!isOpen)}>
+          <p>+</p>
+        </div>
       </div>
       <div
         className={
@@ -51,7 +53,6 @@ export default function Project({
           alt="Fermer"
           className="close"
           onClick={() => setIsOpen(!isOpen)}
-          // onBlur={() => setIsOpen(!isOpen)}
         />
         <div className="project-pic-container">
           <img src={picture} alt="Projet" className="project-pic" />
@@ -63,18 +64,14 @@ export default function Project({
               <h3>{field}</h3>
               <p className="structure">{firm}</p>
             </span>
-            <span className="link">
-              {{ link } ? (
-                <a href={link}>
-                  <img
-                    src="https://i.imgur.com/965xgtZ.png"
-                    alt="lien vers le projet"
-                  />
-                </a>
-              ) : (
-                ""
-              )}
-            </span>
+            {link ? (
+              <a href={link} target="_blank" rel="noreferrer" className="Link">
+                <img
+                  src="https://i.imgur.com/965xgtZ.png"
+                  alt="lien vers le projet"
+                />
+              </a>
+            ) : null}
           </div>
           <div className="details">
             <p className="description">{description}</p>

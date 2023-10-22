@@ -7,9 +7,9 @@ export default function Projects() {
     <div className="page-content">
       <h1>Mes projets</h1>
       <div className="projects-wrapper">
-        {projects?.map((project, index) => (
+        {projects?.map((project) => (
           <Project
-            key={index}
+            key={project.id}
             picture={project.image}
             name={project.name}
             field={project.field}
@@ -17,6 +17,7 @@ export default function Projects() {
             description={project.description}
             firm={project.firm}
             knowledges={project.knowledges}
+            link={project.link}
           />
         ))}
       </div>
