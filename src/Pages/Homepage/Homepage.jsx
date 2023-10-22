@@ -1,5 +1,4 @@
 import React from "react"
-import Dessin from "../../Assets/Dessin.png"
 import "./Homepage.scss"
 
 export default function Homepage() {
@@ -13,7 +12,7 @@ export default function Homepage() {
         </p>
         <p className="quote quote__close">»</p>
       </div>
-      <img src={Dessin} alt="dessin" />
+      <img src="https://i.imgur.com/dX2zKdh.png" alt="dessin" />
     </div>
   )
 }
