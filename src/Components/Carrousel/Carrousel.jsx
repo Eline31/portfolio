@@ -13,12 +13,11 @@ export default function Carrousel({ data }) {
   const [isLoading, setIsLoading] = useState(false)
   const [dataTab, setDataTab] = useState([])
 
-  //Remplissage du tableau d'images grâce à la props "pictures"
   useEffect(() => {
     setIsLoading(true)
     data && setDataTab(data)
     setIsLoading(false)
-  }, [])
+  }, [data])
 
   //Fonction de gestion du roulement du carrousel vers la droite
   const nextSlide = () => {
