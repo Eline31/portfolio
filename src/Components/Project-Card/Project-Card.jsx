@@ -1,7 +1,6 @@
 import "./Project-Card.scss"
 import { useState } from "react"
 import close from "../../Assets/close.png"
-import { Link } from "react-router-dom"
 
 export default function Project({
   picture,
@@ -20,6 +19,7 @@ export default function Project({
       <img
         src={knowledge.icon}
         alt={knowledge.title}
+        title={knowledge.title}
         key={`${index}-${knowledge.title}`}
       />
     )
