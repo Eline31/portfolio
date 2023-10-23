@@ -1,4 +1,4 @@
-import "./abilities.scss"
+import "./Abilities.scss"
 import languages from "../../assets/speak.png"
 import design from "../../assets/graphic-design.png"
 import os from "../../assets/open-source.png"
