@@ -1,8 +1,8 @@
 import "./CV.scss"
-import Carrousel from "../../Components/Carrousel/Carrousel"
-import Diploma from "../../Components/Diploma-Card/Diploma-Card"
-import Abilities from "../../Components/Abilities/Abilities"
-import experiences from "../../Data/experiences.json"
+import Carrousel from "../../components/carrousel/Carrousel"
+import Diploma from "../../components/diploma-card/Diploma-Card"
+import Abilities from "../../components/abilities/Abilities"
+import experiences from "../../data/experiences.json"
 
 export default function CV() {
   return (

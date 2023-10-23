@@ -1,9 +1,8 @@
-import Experience from "../Experience-Card/Experience-Card.jsx"
-// import experiences from "../../Data/experiences.json"
-import chevronleft from "../../Assets/chevronleft.png"
-import chevronright from "../../Assets/chevronright.png"
+import Experience from "../experience-card/Experience-Card.jsx"
+import chevronleft from "../../assets/chevronleft.png"
+import chevronright from "../../assets/chevronright.png"
 import { useState, useEffect } from "react"
-import { Loader } from "../../Utils/Style/Atoms.jsx"
+import { Loader } from "../../utils/style/Atoms.jsx"
 import "./Carrousel.scss"
 
 export default function Carrousel({ data }) {

@@ -1,6 +1,6 @@
 import "./Project-Card.scss"
 import { useState } from "react"
-import close from "../../Assets/close.png"
+import close from "../../assets/close.png"
 
 export default function Project({
   picture,

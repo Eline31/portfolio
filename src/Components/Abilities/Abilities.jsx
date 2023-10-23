@@ -1,8 +1,8 @@
-import "./Abilities.scss"
-import languages from "../../Assets/speak.png"
-import design from "../../Assets/graphic-design.png"
-import os from "../../Assets/open-source.png"
-import coding from "../../Assets/web-programming.png"
+import "./abilities.scss"
+import languages from "../../assets/speak.png"
+import design from "../../assets/graphic-design.png"
+import os from "../../assets/open-source.png"
+import coding from "../../assets/web-programming.png"
 
 export default function Abilities() {
   return (

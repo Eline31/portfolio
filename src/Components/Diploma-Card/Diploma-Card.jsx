@@ -1,4 +1,4 @@
-import diplomas from "../../Data/diplomas.json"
+import diplomas from "../../data/diplomas.json"
 import "./Diploma-Card.scss"
 
 export default function Diploma() {

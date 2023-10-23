@@ -1,6 +1,6 @@
 import "./Experience-Card.scss"
 
-export default function Experience({ experience, index }) {
+export default function Experience({ experience }) {
   const activitiesList = experience.activities
 
   const activity = activitiesList?.map((activity, index) => {

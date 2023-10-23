@@ -1,8 +1,8 @@
 import "./Projects.scss"
-import Project from "../../Components/Project-Card/Project-Card"
-import projects from "../../Data/projects.json"
+import Project from "../../components/project-card/Project-Card"
+import projects from "../../data/projects.json"
 import { useState, useEffect } from "react"
-import { Loader } from "../../Utils/Style/Atoms.jsx"
+import { Loader } from "../../utils/style/Atoms"
 
 export default function Projects() {
   //useState du loader

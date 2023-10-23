@@ -1,8 +1,8 @@
 import "./Contact.scss"
-import email from "../../Assets/mail.png"
-import phone from "../../Assets/smartphone-call.png"
-import home from "../../Assets/direction-sign.png"
-import generationy from "../../Assets/generationy.svg"
+import email from "../../assets/mail.png"
+import phone from "../../assets/smartphone-call.png"
+import home from "../../assets/direction-sign.png"
+import generationy from "../../assets/generationy.svg"
 
 export default function Contact() {
   return (

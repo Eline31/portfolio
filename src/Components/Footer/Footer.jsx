@@ -1,7 +1,7 @@
 import "./Footer.scss"
-import github from "../../Assets/github.png"
-import linkedin from "../../Assets/linkedin.png"
-import twitter from "../../Assets/twitter.png"
+import github from "../../assets/github.png"
+import linkedin from "../../assets/linkedin.png"
+import twitter from "../../assets/twitter.png"
 
 export default function Footer() {
   return (
