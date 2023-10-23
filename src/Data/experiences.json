@@ -1,80 +1,110 @@
 [
   {
-    "dates": "2016",
-    "title": "Stage - Chargée de mission",
-    "firm": "PRESOL",
-    "sector": "Secteur de l'économie sociale et solidaire",
-    "place": "Rennes",
+    "dates": "2019-2022",
+    "title": "Chargée de missions Territoires et Mobilités",
+    "firm": "La Fabrique des Mobilités",
+    "sector": "Secteur du développement durable et de l'innovation",
+    "place": "Paris",
     "activities": [
       {
+        "title": "Création et pilotage de communs de mobilité",
         "description": [
-          "Étude d'un nouveau moyen de lever des financements et sa mise en place.",
-          "Participation à l'analyse de projets de création de PME/TPE portés par des personnes en situation précaire."
+          "Identification du commun, des parties prenantes et des ressources utiles à sa production.",
+          "Organisation du travail, budgétisation et recherche de ﬁnancements (réponses à des appels d'offre publics ou fonds conventionnés), suivi jusqu'à la production du commun.",
+          "Gestion de l'expérimentation du commun produit sur des territoires et sa documentation complète pour en permettre la reproductibilité."
+        ],
+        "examples": "Communs : challenge national sur la seconde vie des trottinettes électriques, Partageons plus de vélos, exploration des imaginaires du futur de la mobilité"
+      },
+      {
+        "title": "Création et animation de communautés d'intérêt",
+        "description": [
+          "Identification des intérêts communs d'acteurs de la mobilité (associations, grands groupes, institutions publiques, écoles...).",
+          "Préparation et animation de réunions, ateliers de travail, événements pour aider la communauté à identiﬁer des communs et les produire.",
+          "Documentation des ateliers, événements, des travaux menés."
+        ],
+        "examples": "Communautés d'intêret : véhicules Open Source, conseiller·ère·s en mobilité, opérateurs de micromobilité"
+      },
+      {
+        "title": "Supervision de la création d'une nouvelle identité et charte graphiques pour l'association"
+      },
+      {
+        "title": "Participation aux décisions stratégiques et à l'organisation interne de l'association",
+        "description": [
+          "Rédaction et suivi administratif et comptable des différentes conventions de financement de l'association (AFD, ADEME, Michelin, Collectivités...).",
+          "Gestion des adhérent·e·s et partenaires.",
+          "Formation aux outils de l'équipe et du réseau.",
+          "Gestion des outils (github, wiki, discourse, codiMD, rocket chat)."
         ]
       }
     ]
   },
   {
-    "dates": "2013-2016",
-    "title": "Emploi étudiant - Conseillère de vente",
-    "firm": "Minelli",
-    "sector": "Secteur de la vente",
-    "place": "Rennes"
+    "dates": "2017-2019",
+    "title": "Cheffe de projets innovation",
+    "firm": "Silex ID",
+    "sector": "Secteur du développement durable et de l'innovation",
+    "place": "Paris",
+    "activities": [
+      {
+        "title": "Conception et pilotage d'ateliers de sensibilisation à l'innovation",
+        "description": [
+          "Reformulation du besoin client, budgétisation, devis, gestion de prestataires externes.",
+          "Conception et design d'ateliers, création des supports visuels et intermédiation avec le client et animation de ces ateliers."
+        ]
+      },
+      {
+        "title": "Supervision de la conception de magazines et newspapers print ou autres supports de communication interne print ou digitaux et des illustrations liées",
+        "description": [
+          "Pilotage de la budgétisation à la clôture.",
+          "Reformulation du besoin client, conseil éditorial, coconception du design et des illustrations."
+        ]
+      },
+      {
+        "title": "Participation aux décisions stratégiques, à la gestion comptable, administrative et financière"
+      }
+    ]
   },
   {
-    "dates": "2012-2013",
-    "title": "Emploi étudiant - Vendeuse en horlogerie",
-    "firm": "Espace-Temps",
-    "sector": "Secteur de la vente",
-    "place": "Rennes"
-  },
-  {
-    "dates": "2012",
-    "title": "Vendeuse en boulangerie",
-    "firm": "Augustin",
-    "sector": "Secteur de la restauration",
-    "place": "Rennes"
-  },
-  {
-    "dates": "2012",
-    "title": "Barmaid",
-    "firm": "Café Clim'",
-    "sector": "Secteur de la restauration",
-    "place": "Rennes"
-  },
-  {
-    "dates": "2011",
-    "title": "Barmaid",
-    "firm": "All-Bar-One Embankment",
-    "sector": "Secteur de la restauration",
-    "place": "Londres"
-  },
-  {
-    "dates": "2011",
-    "title": "Barmaid",
-    "firm": "Punch&Judy",
-    "sector": "Secteur de la restauration",
-    "place": "Londres - Covent Garden"
-  },
-  {
-    "dates": "2011",
-    "title": "Vendeuse",
-    "firm": "Undiz",
-    "sector": "Secteur de la vente",
-    "place": "Cesson-Sévigné"
-  },
-  {
-    "dates": "2010",
-    "title": "Emploi saisonnier",
-    "firm": "Centre Départemental d'Action Sociale des Champs Manceaux",
-    "sector": "Secteur de l'économie sociale et solidaire",
-    "place": "Rennes"
-  },
-  {
-    "dates": "2010-2013",
-    "title": "Marché hebdomadaire (dimanche matin)",
-    "firm": "Marché de Thorigné-Fouillard",
-    "sector": "Secteur de l'alimentation",
-    "place": "Thorigné-Fouillard"
+    "dates": "",
+    "title": "Emplois saisonniers et étudiants",
+    "firm": "",
+    "sector": "",
+    "place": "",
+    "activities": [
+      {
+        "title": "Stage de l'économie sociale et solidaire - Chargée de mission à PRESOL (2016)",
+        "description": [
+          "Étude d'un nouveau moyen de lever des financements et sa mise en place.",
+          "Participation à l'analyse de projets de création de PME/TPE portés par des personnes en situation précaire."
+        ]
+      },
+      {
+        "title": "Emploi étudiant - Conseillère de vente à Minelli, Rennes (2013-2016)"
+      },
+      {
+        "title": "Emploi étudiant - Vendeuse en horlogerie à Espace-Temps, Rennes (2012-2013)"
+      },
+      {
+        "title": "Vendeuse en boulangerie à Augustin, Rennes (2012)"
+      },
+      {
+        "title": "Barmaid au Café Clim', Rennes (2012)"
+      },
+      {
+        "title": "Barmaid au All-Bar-One Embankment, Londres (2011)"
+      },
+      {
+        "title": "Barmaid au Punch&Judy à Covent Garden, Londres (2011)"
+      },
+      {
+        "title": "Vendeuse à Undiz, Cesson-Sévigné (2011)"
+      },
+      {
+        "title": "Accueil au Centre Départemental d'Action Sociale des Champs Manceaux, Rennes (2010)"
+      },
+      {
+        "title": "Marché hebdomadaire (dimanche matin), Thorigné-Fouillard (2010-2013)"
+      }
+    ]
   }
 ]
