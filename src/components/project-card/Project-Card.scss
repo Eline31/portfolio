@@ -12,6 +12,7 @@
     flex-direction: column;
     justify-content: space-between;
     position: relative;
+    z-index: 0;
     &:hover {
       filter: drop-shadow(2px 3px 4px rgb(155, 155, 155));
       opacity: 0.9;
@@ -96,6 +97,7 @@
     flex-direction: column;
     justify-content: space-around;
     flex-wrap: wrap;
+    z-index: 2;
     opacity: 0;
     transform: scale(0.6);
     transition: all 500ms ease-in-out;
@@ -204,6 +206,7 @@
       filter: drop-shadow(2px 3px 4px rgb(155, 155, 155));
       cursor: default;
       z-index: 2;
+      opacity: 1;
       .close {
         height: 20px;
         width: 20px;
