@@ -162,6 +162,15 @@
             font-size: 0.9rem;
           }
         }
+        .Link {
+          height: 20px;
+          width: 20px;
+          img {
+            object-fit: contain;
+            height: 20px;
+            width: 20px;
+          }
+        }
       }
       .details {
         height: 100%;
@@ -288,8 +297,7 @@
             margin-top: 20px;
             img {
               margin: 0px 15px;
-              height: 30px;
-              min-width: 30px;
+              height: 25px;
             }
           }
         }
@@ -323,7 +331,6 @@
               img {
                 margin: 0px 10px;
                 height: 25px;
-                min-width: 25px;
               }
             }
           }
