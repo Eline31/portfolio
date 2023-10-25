@@ -5,6 +5,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 100px repeat(2, minmax(130px, auto));
+  align-self: center;
   h1 {
     display: block;
     margin-top: 0px;
