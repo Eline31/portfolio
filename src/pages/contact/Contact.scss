@@ -33,4 +33,13 @@
       }
     }
   }
+  @media screen and (max-width: 768px) {
+    .contact-wrapper {
+      .item {
+        img {
+          display: none;
+        }
+      }
+    }
+  }
 }
