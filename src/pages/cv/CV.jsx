@@ -15,6 +15,7 @@ export default function CV() {
             <Carrousel
               data={experiences}
               key={`${experiences.firm}-${experiences.title}`}
+              className="wrapper-cv"
             />
           </div>
           <Diploma key={`${Diploma.place}-${Diploma.dates}`} />

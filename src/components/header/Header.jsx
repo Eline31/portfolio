@@ -1,11 +1,19 @@
 import "./Header.scss"
 import { useLocation } from "react-router-dom"
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import { StyledLink } from "../../utils/style/Atoms"
 
 export default function Header() {
   const location = useLocation()
   const [isOpen, setIsOpen] = useState(false)
+
+  useEffect(() => {
+    if (isOpen) {
+      setTimeout(() => {
+        setIsOpen(!isOpen)
+      }, 5000)
+    }
+  }, [isOpen])
 
   return (
     <div className="Header">

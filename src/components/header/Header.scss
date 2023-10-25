@@ -30,7 +30,7 @@
       position: fixed;
       top: 65px;
       right: 10px;
-      background-color: white;
+      background-color: transparent;
       padding: 10px;
       height: 130px;
       transform: translateX(0);
@@ -69,7 +69,7 @@
         transform: translateX(0);
       }
       &__open {
-        background-color: white;
+        background-color: transparent;
         div {
           &:nth-child(1) {
             transform: rotate(45deg);
@@ -84,5 +84,10 @@
         }
       }
     }
+  }
+  @media screen and (max-width: 768px) {
+    grid-row: none;
+    z-index: 5;
+    height: 0px;
   }
 }

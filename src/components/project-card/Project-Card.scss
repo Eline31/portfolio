@@ -55,7 +55,6 @@
       margin: 5px 0px 15px 0px;
       img {
         height: 20px;
-        // max-width: 70px;
         object-fit: contain;
         margin: 10px 5px 5px 5px;
       }
@@ -88,7 +87,6 @@
     padding: 10px;
     background-color: $secondary-color;
     margin: auto;
-    position: fixed;
     border-radius: 10px;
     top: 0;
     right: 0;
@@ -103,6 +101,7 @@
     transform: scale(0.6);
     transition: all 500ms ease-in-out;
     transform-origin: center;
+    position: absolute;
     .close {
       height: 20px;
       width: 20px;
@@ -303,6 +302,10 @@
         }
       }
       @media only screen and (max-width: 768px) {
+        width: 90%;
+        .project-pic-container {
+          max-height: 200px;
+        }
         .project-content {
           .main-info {
             .titles {
@@ -327,6 +330,10 @@
             }
           }
           .details {
+            .description {
+              max-height: 200px;
+              overflow: auto;
+            }
             .knowledges {
               img {
                 margin: 0px 10px;

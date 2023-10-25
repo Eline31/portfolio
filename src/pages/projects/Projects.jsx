@@ -25,7 +25,7 @@ export default function Projects() {
         </div>
       ) : (
         <div className="page-content">
-          <h1>Mes projets</h1>
+          <h1>Mes projets réalisés</h1>
           <div className="projects-wrapper">
             {projects?.map((project) => (
               <Project
