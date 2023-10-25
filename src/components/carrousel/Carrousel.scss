@@ -41,7 +41,16 @@
         transition: all 400ms ease-in;
       }
     }
-    @media only screen and (max-width: 768px) {
+  }
+  @media only screen and (max-width: 768px) {
+    grid-template-columns: 20px 1fr 20px;
+    .buttons {
+      .arrowLeft,
+      .arrowRight {
+        height: 30px;
+      }
+    }
+    .Xperience-wrapper {
       margin: 0px;
     }
   }
