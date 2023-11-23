@@ -13,6 +13,8 @@ export default function Homepage() {
           mise en place d'un projet de sa conception à sa clôture, essayer d'y
           apporter une solution. de l'identification du besoin à
           l'expérimentation du projet.
+
+          
         </p>
         <p className="quote quote__close">»</p>
       </div>
