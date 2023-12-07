@@ -3,6 +3,7 @@ import Project from "../../components/project-card/Project-Card"
 import projects from "../../data/projects.json"
 import { useState, useEffect } from "react"
 import { Loader } from "../../utils/style/Atoms"
+import ToTop from "../../components/to-top-button/To-Top-Button"
 
 export default function Projects() {
   //useState du loader
@@ -41,6 +42,7 @@ export default function Projects() {
               />
             ))}
           </div>
+          <ToTop />
         </div>
       )}
     </>
