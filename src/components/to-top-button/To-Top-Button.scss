@@ -12,13 +12,22 @@
   position: fixed;
   bottom: 50px;
   right: 50px;
+  transition: all 0.3s ease-in-out;
   img {
-    width: 15px;
+    width: 13px;
     object-fit: contain;
     rotate: 90deg;
+    line-height: 15px;
+    transition: all 0.3s ease-in-out;
+    transform: scale(1);
   }
   &:hover {
     opacity: 60%;
     cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    img {
+      transition: all 0.3s ease-in-out;
+      transform: scale(0.8);
+    }
   }
 }

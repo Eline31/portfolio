@@ -5,6 +5,11 @@
 $primary-color: #ffd200;
 $secondary-color: #f4f4f4;
 
+html {
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
 * {
   font-family: "Montserrat", sans-serif;
   box-sizing: border-box;
