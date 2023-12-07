@@ -7,14 +7,15 @@ export default function Homepage() {
       <div className="presentation-wrapper">
         <p className="quote quote__open">«</p>
         <p>
-          J'aime comprendre une problématique et y apporter une réponse tangible
-          par la création d'un projet, de sa conception à sa réalisation et son
-          expérimentation. J'aime être confrontée à une problématique, et par la
-          mise en place d'un projet de sa conception à sa clôture, essayer d'y
-          apporter une solution. de l'identification du besoin à
-          l'expérimentation du projet.
-
-          
+          J'aime être confrontée à une problématique, et par la mise en place
+          d'un projet de sa conception à sa livraison, essayer d'y apporter une
+          solution.
+          <br />
+          <br />
+          Chaque projet s'inscrit dans un contexte qui peut être amené à
+          évoluer, c'est pourquoi j'aborde les projets de la problématique dont
+          il émerge puis participe à chacune des étapes de son développement,
+          afin de m'assurer qu'il réponde toujours à un besoin réel.
         </p>
         <p className="quote quote__close">»</p>
       </div>
